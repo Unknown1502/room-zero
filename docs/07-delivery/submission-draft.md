@@ -46,7 +46,7 @@ Finish the runtime and repeatability evidence, test the release build on Quest h
 
 | Asset | Current status | Submission-safe action |
 |---|---|---|
-| Public HTTPS build URL | Not hosted | Host only after release validation and user authorization. |
+| Public HTTPS build URL | **Hosted (2026-11-18, with the user's authorization):** https://unknown1502.github.io/room-zero/ (GitHub Pages, `gh-pages` branch, the production build). Desktop check in headless Chromium: secure context, 35 requests all to the same origin, 0 HTTP errors, 0 console errors, the page says it needs a VR headset browser (`qa/hosting/hosted-check.json`). **Not opened in the Quest Browser; not played on a headset.** | Open it once in the Quest Browser before submitting. |
 | Gameplay video, under three minutes | Recorded and cut (2026-11-18): `artifacts/recordings/trailer-take4.mp4`, 170 s, from one real uninterrupted emulator run (raw: `take4.webm`, 413 s; cut list: `trailer-take4-cuts.json`). Silent; footage is the IWER desktop emulator and says so on screen. Not uploaded. | Review it, decide whether the graybox look and the missing sound are acceptable, and upload it yourself (no upload was made). Record on a Quest for a stronger submission. |
 | Screenshots | Development/IWER captures exist, but include emulator overlays | Capture clean production screenshots; do not submit IWER-control screenshots. |
 | Title and licence audit | Not complete | Verify title conflicts and runtime dependency licences before public release. |

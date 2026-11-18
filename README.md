@@ -2,6 +2,8 @@
 
 An original, seated, hands-only VR puzzle-adventure for Meta Quest 3 and 3S, built on the Meta Immersive Web SDK (IWSDK 1.1.0), Three.js, TypeScript and WebXR.
 
+> **Hosted build:** https://unknown1502.github.io/room-zero/ (needs the Meta Quest Browser to play; on a desktop it only shows the title page).
+>
 > **Status: playable graybox chapter, validated in a desktop emulator only.** The whole first chapter (11 rooms, 6 seams, the Surveyor, the letter) is implemented with procedural placeholder art and generated placeholder audio. It has been exercised in IWER (the browser XR emulator), not on a Quest and not by a person. It is **not release-ready**; the open items are in `docs/07-delivery/known-limitations.md`.
 
 The working title is provisional. No name or trademark clearance has been done (see `docs/07-delivery/unresolved-questions.md`, Q-20).

@@ -1,6 +1,6 @@
-# Hosting the production build (free, HTTPS) — not done, needs your approval
+# Hosting the production build (free, HTTPS)
 
-Status: **NOT HOSTED.** Nothing has been deployed or published. This page is the exact procedure. WebXR on the Quest Browser needs a secure context, so the host must serve HTTPS (all the options below do).
+Status: **HOSTED on 2026-11-18 with the user's explicit authorization:** https://unknown1502.github.io/room-zero/ (GitHub Pages, branch `gh-pages` of `Unknown1502/room-zero`, the contents of `dist/` plus `.nojekyll`). To update it: `npm run build`, then push the contents of `dist/` to `gh-pages` again. Desktop check: `qa/hosting/hosted-check.json` (0 errors, same-origin only). **Not yet opened in the Quest Browser.** The rest of this page is the general procedure and the alternatives. WebXR on the Quest Browser needs a secure context, so the host must serve HTTPS (all the options below do).
 
 ## What is ready
 
