@@ -1,0 +1,125 @@
+{
+  "capturedAt": "2026-11-18T11:17:24.902Z",
+  "environment": "IWER desktop emulator",
+  "passes": 3,
+  "of": 3,
+  "tally": {
+    "RT-02": {
+      "pass": 3,
+      "fail": 0,
+      "results": [
+        "Pass",
+        "Pass",
+        "Pass"
+      ]
+    },
+    "RT-05": {
+      "pass": 3,
+      "fail": 0,
+      "results": [
+        "Pass",
+        "Pass",
+        "Pass"
+      ]
+    },
+    "RT-06": {
+      "pass": 2,
+      "fail": 1,
+      "results": [
+        "Fail",
+        "Pass",
+        "Pass"
+      ]
+    },
+    "RT-07": {
+      "pass": 3,
+      "fail": 0,
+      "results": [
+        "Pass",
+        "Pass",
+        "Pass"
+      ]
+    },
+    "RT-08": {
+      "pass": 3,
+      "fail": 0,
+      "results": [
+        "Pass",
+        "Pass",
+        "Pass"
+      ]
+    },
+    "RT-09": {
+      "pass": 3,
+      "fail": 0,
+      "results": [
+        "Pass",
+        "Pass",
+        "Pass"
+      ]
+    },
+    "RT-11": {
+      "pass": 3,
+      "fail": 0,
+      "results": [
+        "Pass",
+        "Pass",
+        "Pass"
+      ]
+    },
+    "RT-12": {
+      "pass": 3,
+      "fail": 0,
+      "results": [
+        "Pass",
+        "Pass",
+        "Pass"
+      ]
+    },
+    "RT-13": {
+      "pass": 3,
+      "fail": 0,
+      "results": [
+        "Pass",
+        "Pass",
+        "Pass"
+      ]
+    },
+    "RT-14": {
+      "pass": 3,
+      "fail": 0,
+      "results": [
+        "Pass",
+        "Pass",
+        "Pass"
+      ]
+    },
+    "RT-18": {
+      "pass": 3,
+      "fail": 0,
+      "results": [
+        "Pass",
+        "Pass",
+        "Pass"
+      ]
+    },
+    "RT-19": {
+      "pass": 1,
+      "fail": 2,
+      "results": [
+        "Fail",
+        "Fail",
+        "Pass"
+      ]
+    },
+    "RT-24": {
+      "pass": 3,
+      "fail": 0,
+      "results": [
+        "Pass",
+        "Pass",
+        "Pass"
+      ]
+    }
+  }
+}

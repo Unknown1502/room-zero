@@ -1,0 +1,318 @@
+{
+  "capturedAt": "2026-11-18T17:57:30.323Z",
+  "environment": "IWER desktop emulator, Quest 3 profile, IWSDK 1.1.0, headless Chromium",
+  "rows": [
+    {
+      "id": "RT-01",
+      "title": "Enter XR",
+      "preconditions": "Page loaded; no XR session",
+      "inputs": "xr exit; page reload; xr enter",
+      "expected": "Session active; game state Title; envelope present",
+      "actual": "session active (visible), game Title, envelope visible=true",
+      "evidence": [
+        "evidence/rt/RT-01-title-in-xr.png"
+      ],
+      "seconds": 17,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-02",
+      "title": "Exit and re-enter",
+      "preconditions": "Immersive; chapter at cp-stairhead (set in-page; the save is written by the game)",
+      "inputs": "xr exit; xr enter; fingertip on the continue seal",
+      "expected": "Title offers continue; state equals the checkpoint snapshot",
+      "actual": "while out of VR: game Title; after re-entry: Title, continue seal visible; fingertip on continue resumed at cp-stairhead (v-stair-head); committed seams, vantage, postmarks and Surveyor equal the cp-stairhead snapshot; rig/station alignment error 0 m",
+      "evidence": [
+        "evidence/rt/RT-02-resumed.png"
+      ],
+      "seconds": 41,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-03",
+      "title": "Hands available",
+      "preconditions": "Immersive; hand input mode",
+      "inputs": "set-input-mode hand; then disconnect both hands and wait",
+      "expected": "Two hand input sources; no hands card. With hands disconnected: hands card appears",
+      "actual": "with hands: both sources present, card hidden; hands disconnected 6.5 s: sources false/false, card visible; reconnected: card cleared",
+      "evidence": [
+        "evidence/rt/RT-03-hands-present.png",
+        "evidence/rt/RT-03-hands-disconnected.png"
+      ],
+      "seconds": 26,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-04",
+      "title": "One-hand grab",
+      "preconditions": "Immersive; chapter at v-foyer-door (precondition set in-page)",
+      "inputs": "Right hand pinches the seam-hall travel grip, releases; left hand does the same",
+      "expected": "Grip held by the pinching hand (domain phase held, holder hand correct). SDK Grabbed tag: not used by design (plan P3)",
+      "actual": "right hand held it (phase held, holder right); left hand held it (phase held, holder left); both released to rest",
+      "evidence": [
+        "evidence/rt/RT-04-right-hand-grip.png"
+      ],
+      "seconds": 35,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-05",
+      "title": "Two-hand grab",
+      "preconditions": "Immersive; chapter at v-stair-head, seam-hall at 1 (checkpoint cp-stairhead)",
+      "inputs": "Right pinches travel grip alone; then left holds anchor, right takes travel; then roles swapped",
+      "expected": "First: refused Latched. Then held. Works with roles swapped",
+      "actual": "travel alone refused (Latched); anchor left + travel right: held; anchor right + travel left: held",
+      "evidence": [
+        "evidence/rt/RT-05-two-hand-hold.png"
+      ],
+      "seconds": 48,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-06",
+      "title": "Seam movement",
+      "preconditions": "Immersive; at v-foyer-door (seam-hall)",
+      "inputs": "Hold travel grip; move the hand along the rail in five steps, then beyond its end",
+      "expected": "param follows in step and clamps at 1; module follows within the speed cap; grip stays on the rail",
+      "actual": "param followed 0.2->0.202, 0.4->0.402, 0.6->0.602, 0.8->0.802, 1->1; beyond the end clamped at 1; grip on the rail (0.180, 0.950, -0.420); peak drawn speed 0.54/s <= cap 0.83/s (1805 frames sampled)",
+      "evidence": [
+        "evidence/rt/RT-06-held-at-end.png"
+      ],
+      "seconds": 52,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-07",
+      "title": "Snap acceptance",
+      "preconditions": "Immersive; at v-foyer-door",
+      "inputs": "Hold travel grip; move to within the snap window of detent 1; release",
+      "expected": "Settles to the detent within 0.8 s; edge appears; lamp for the next vantage lit",
+      "actual": "preview named foyer.north|stair.foot (strength 1.00); snapped to detent 1; settle 84 ms (limit 800); edge foyer.north|stair.foot open; v-stair-head lamp lit (r=1.34)",
+      "evidence": [
+        "evidence/rt/RT-07-connected.png"
+      ],
+      "seconds": 40,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-08",
+      "title": "Snap rejection",
+      "preconditions": "Immersive; (a) at v-foyer-door, (b) at v-stair-head with seam-hall at 1",
+      "inputs": "(a) mid-rail release of seam-hall. (b) brace, drag seam-landing to its half-way detent, release",
+      "expected": "(a) returns; edges unchanged. (b) rests at the half-way detent; no edge",
+      "actual": "(a) released mid-rail: return, committed 0, edges unchanged; (b) landing rests at detent 1 (half-way), no landing.west|stair.head edge, v-landing-east not reachable",
+      "evidence": [
+        "evidence/rt/RT-08-halfway-rest.png"
+      ],
+      "seconds": 52,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-09",
+      "title": "Blocked path",
+      "preconditions": "Immersive; at v-ceast-end (cp-east), lift at corridor level",
+      "inputs": "Hold the arm lever and pull it to the end",
+      "expected": "param stops at the block; SeamBlocked raised; release returns it",
+      "actual": "pulled to the end: param stopped at 0.573 (by lift); SeamBlocked raised; release returned it to detent 0",
+      "evidence": [
+        "evidence/rt/RT-09-blocked.png"
+      ],
+      "seconds": 36,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-10",
+      "title": "Hop",
+      "preconditions": "Immersive; chapter at v-foyer-start (cp-arrival)",
+      "inputs": "Right hand ray at the lit lamp, pinch-select; then at v-foyer-door aim at the unlit stair-head lamp, pinch-select",
+      "expected": "Fade; rig at the new vantage anchor; domain vantage updated. Unlit lamp: nothing",
+      "actual": "lit lamp (ray length 9.94 m): faded to 1, back to 0; rig 0 m from the vantage anchor; vantage v-foyer-door. Unlit stair-head lamp: no hop, no fade",
+      "evidence": [
+        "evidence/rt/RT-10-after-hop.png"
+      ],
+      "seconds": 51,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-11",
+      "title": "Hand loss during a move",
+      "preconditions": "Immersive; at v-foyer-door; right hand holding the seam-hall grip",
+      "inputs": "Disconnect the holding hand 0.1 s and reconnect; then 1 s (mid-rail); then 1 s with the grip inside the snap window",
+      "expected": "Short loss: hold continues. Long loss: released; returns unless within a snap window",
+      "actual": "0.1 s loss -> held at 0.502 (IWER resets the pinch on reconnect, so the test restores it, as a user's still-closed fingers would be); 1 s loss mid-rail -> return, committed 0, rest; 1 s loss inside the snap window -> snap, committed 1; never committed outside a snap window",
+      "evidence": [
+        "evidence/rt/RT-11-after-loss.png"
+      ],
+      "seconds": 109,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-12",
+      "title": "Pause and resume",
+      "preconditions": "Immersive; cp-corridor, Surveyor approaching; right hand holding the seam-bridge grip",
+      "inputs": "updateVisibilityState hidden; wait 3 s; visible",
+      "expected": "Grip released; tick count unchanged while hidden; Surveyor in the same place",
+      "actual": "hidden: game Pause, grip released (settling, committed 0); over 3 s hidden ticks 393->393, Surveyor walk 76->76 in c-east; visible again: ticks resumed (393->423), game ThreatEncounter",
+      "evidence": [
+        "evidence/rt/RT-12-resumed.png"
+      ],
+      "seconds": 37,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-13",
+      "title": "Restart",
+      "preconditions": "Immersive; chapter at cp-landing with intensity reduced and snap turn 30",
+      "inputs": "Right index fingertip held on the restart seal for 2.4 s",
+      "expected": "State equals initial; settings kept",
+      "actual": "held 2.4 s: back to cp-arrival at v-foyer-start, game Exploration; seams, postmarks, objectives, letter, tally all equal a fresh chapter; settings kept (reduced, snap 30)",
+      "evidence": [
+        "evidence/rt/RT-13-restarted.png"
+      ],
+      "seconds": 38,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-14",
+      "title": "Surveyor follows the graph",
+      "preconditions": "Immersive; cp-corridor; right hand holding the seam-bridge lever (real-time, no ECS stepping)",
+      "inputs": "A: swing the bridge while it is in the East Corridor, swing back when it is in the office. B: swing while it is on the bridge",
+      "expected": "A: den, c-east, bridge, dead-letter; counts 3, 2, 2, 1; no-route signal; ends Searching in dead-letter. B: Blocked for the block time, then replans. Drawn body always in the reported room",
+      "actual": "A: rooms c-east > bridge > dead-letter; counts 3,2,2,1; no-route signal; ends Searching in dead-letter; 401 body samples, 0 outside the reported room | B: swung while it was on the bridge: Blocked for 4.0 s (limit 4 s), then Replanning, then reached dead-letter; 331 body samples, 0 outside",
+      "evidence": [
+        "evidence/rt/RT-14-office-sealed.png"
+      ],
+      "seconds": 135,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-15",
+      "title": "Full chapter",
+      "preconditions": "Immersive; chapter at the title with default settings",
+      "inputs": "The reference solution of first-chapter.md section 10 as one hands-only script: title seal, ray-pinch hops, grips and braces on all six seams, the encounter, the letter into pigeonhole 0",
+      "expected": "Each checkpoint in order; ChapterComplete reached; no errors in the console",
+      "actual": "Completed in 521.3 s wall clock with hands only (26 timeline marks, artifacts/rt15-timeline.json). Checkpoints ENTRANCE > STAIR > LANDING > WEST > EAST > LAST POST; ChapterComplete; 5 objectives; caught 1 time(s); no console errors. Observed interaction failures (retried): hop to v-stair-head: attempt 1 had no effect (__rz.session.vantage === 'v-stair-head' && __rz.fade < 0.05); hop to v-stair-head: needed 2 attempts; hop to v-landing-east: attempt 1 had no effect (__rz.session.vantage === 'v-landing-east' && __rz.fade < 0.05); hop to v-landing-east: needed 2 attempts; take the bridge lever again: attempt 1 had no effect (__rz.session.seams['seam-bridge'].phase === 'held'); take the bridge lever again: needed 2 attempts; fast hop from v-lift: press had no effect",
+      "evidence": [
+        "evidence/rt/RT-15-final.png"
+      ],
+      "seconds": 535,
+      "result": "Pass",
+      "note": "Three defects were found by this test and fixed: taking the letter switched the \"hands\" setting (settings seals answered to any fingertip; now only while the letter is offered and no hand pinches, with a unit test), and two harness faults (the console-error check read old injected errors; the finale ignored a catch). Emulator quirk, not a game fault (the game received no press at all): the first ray press by a hand that has just run a scripted seam sequence is lost, the identical second press works (hop-trial and diagnostics in artifacts/). The finale uses the left hand with pre-computed aims because the Surveyor reaches the player about 9 s after the dock and each emulator command costs about 1.4 s."
+    },
+    {
+      "id": "RT-16",
+      "title": "Envelope seals",
+      "preconditions": "Immersive; chapter just begun, letter in view",
+      "inputs": "Right index fingertip on each settings seal (turn, intensity, hands); then page reload",
+      "expected": "Settings change in the domain and persist across reload",
+      "actual": "turn 0->30, intensity standard->reduced, hands two->one; stored in localStorage ({\"snapTurn\":30,\"intensity\":\"reduced\",\"hands\":\"one\",\"volume\":1}); after reload the game read the same settings",
+      "evidence": [
+        "evidence/rt/RT-16-settings-changed.png"
+      ],
+      "seconds": 87,
+      "result": "Pass",
+      "note": "Spec step \"turn the letter over\" is not applicable: the settings seals sit on the letter face in this build"
+    },
+    {
+      "id": "RT-17",
+      "title": "Controllers",
+      "preconditions": "Immersive; at v-foyer-door; input mode switched to controllers",
+      "inputs": "Squeeze to grab the seam-hall grip, move, release; trigger-select a lit lamp",
+      "expected": "Same outcomes as RT-04, RT-07, RT-10",
+      "actual": "squeeze grabbed the grip (phase held, holder right); released inside the snap window: committed detent 1, edge foyer.north|stair.foot open; trigger on the lit stair-head lamp hopped to v-stair-head",
+      "evidence": [
+        "evidence/rt/RT-17-controller-hop.png"
+      ],
+      "seconds": 52,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-18",
+      "title": "Save and reload",
+      "preconditions": "Immersive; chapter at cp-landing (the game writes the save)",
+      "inputs": "Reload the page; xr enter; fingertip on continue",
+      "expected": "Seam detents, edges and vantage match the checkpoint",
+      "actual": "reloaded: Title with continue and no notice; continue restored cp-landing at v-landing-east; 8 open edges and seam detents identical to before; rig/station alignment 0 m",
+      "evidence": [
+        "evidence/rt/RT-18-continued.png"
+      ],
+      "seconds": 55,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-19",
+      "title": "Corrupt save",
+      "preconditions": "Page with controlled local storage (no XR needed)",
+      "inputs": "Write (1) truncated JSON in the current slot, (2) a record whose edge list does not match its seams, (3) an unknown checkpoint; reload after each",
+      "expected": "Other slot, then canonical snapshot, then new game; notice shown; no exception",
+      "actual": "truncated JSON in the current slot, valid record in the other -> continue at cp-landing, notice \"Earlier progress could not be restored as saved.\", no console error; edge list that does not match the seams -> continue at cp-east, notice \"Earlier progress could not be restored as saved.\", no console error; unknown checkpoint and nothing usable in the other slot -> new game, notice \"Earlier progress could not be restored as saved.\", no console error",
+      "evidence": [],
+      "seconds": 56,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-20",
+      "title": "Audio state",
+      "preconditions": "Immersive; cp-corridor; the encounter driven with game commands (the hands are not under test here)",
+      "inputs": "Let the Surveyor wake and count; swing the bridge while it is on it (brace, Blocked); let it measure the office; swing back (no route); then hide and show the session",
+      "expected": "The matching audio request within 0.5 s of each Surveyor state change; audio resumes after pause",
+      "actual": "wakes (Listening) -> tape 0.00 s; wakes (Listening) -> pencil 0.00 s; count -> knock 0.30 s; bracing -> strain 0.00 s; Blocked -> plumb 0.00 s; measuring -> pencil 0.00 s; measuring -> tape 0.00 s; no route -> tape-long 0.00 s; after hide/show the room-tone loop was re-requested (loop 0.35; SDK source playing=true); Note: this checks the game's audio requests and the SDK source state, not what is heard",
+      "evidence": [],
+      "seconds": 73,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-21",
+      "title": "The letter",
+      "preconditions": "Immersive; (a) at v-foyer-door, (b) cp-docked at v-zero, (c) at v-foyer-door",
+      "inputs": "(a) take the letter and release it in mid-air. (b) take it to pigeonhole 0 and release. (c) carry it to the pigeonhole position while not in Room Zero and release",
+      "expected": "(a) returns to the strap. (b) delivered, ending starts. (c) not delivered",
+      "actual": "(a) mid-air release: letter strap, back at the strap (-0.3, 0.82, -0.3); (c) at the slot position outside Room Zero: not delivered, no ending; (b) in Room Zero: delivered, ending started (3 step events so far). Slot is 0.53 m from the seated reference point (seated reach limit is 0.55 m)",
+      "evidence": [
+        "evidence/rt/RT-21-delivered.png"
+      ],
+      "seconds": 100,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-22",
+      "title": "Lamps and scene join",
+      "preconditions": "Dev page; no XR needed",
+      "inputs": "For 20 spread seam configurations and every vantage compare lit lamps with the domain reachable set; check every content ID has its scene object; check every station grip against the seated reach envelope",
+      "expected": "Identical sets; join check passes; all grips in the envelope",
+      "actual": "20 configurations x 11 vantages = 220 comparisons: lit lamps identical to the domain's reachable set; every module, socket, beacon, station, seal and setting seal present (7 stations); every grip end inside the seated reach envelope",
+      "evidence": [],
+      "seconds": 3,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-23",
+      "title": "Unsupported platform, refused session and production build",
+      "preconditions": "(a) production build served from a sub-path in a separate headless Chromium with no emulator; (b) the emulator page with the session request made to fail",
+      "inputs": "(a) open /room-zero/ ; (b) click Enter VR with requestSession rejecting, then with it restored",
+      "expected": "(a) page explains that a headset browser is needed; no emulator code; no request to another origin. (b) message and a working retry",
+      "actual": "(a) production build from /room-zero/: \"This needs a VR headset browser. Open this address in the Meta Quest Browser.\"; Enter VR disabled; no emulator globals, dev hook or emulator code in the bundle (SDK-internal globals present: __IWSDK_LUCIDE_ICONS_TRIMMED__); 35 requests, none to another origin, 0 failed; (b) session request refused: \"The headset did not start VR. Try again.\", Enter VR re-enabled; after restoring it the retry started a session",
+      "evidence": [
+        "evidence/rt/RT-23-refused.png",
+        "evidence/rt/RT-23-unsupported.png"
+      ],
+      "seconds": 101,
+      "result": "Pass"
+    },
+    {
+      "id": "RT-24",
+      "title": "Error boundary and asset failure",
+      "preconditions": "Immersive; chapter running. Then fault injection through the browser context",
+      "inputs": "(a) make a tick throw; touch the card's retry. (b) block one background asset (audio/knock.wav), reload, play. (c) block the game script (the critical asset), reload; unblock; Try again",
+      "expected": "(a) ticking stops; error card; restart works. (b) play continues. (c) the page reports it and retry works",
+      "actual": "(a) a tick threw: error card shown, ticks stopped (150); fingertip on retry restarted the chapter at its opening (Exploration), not the title; (b) audio/knock.wav blocked: the game booted and the chapter started (Exploration), no error card; (c) production build with the game bundle failing to load (404): page said \"The house could not be prepared: a file did not load. Check your connection and try again.\" with Try again visible; with the bundle served again, Try again recovered (\"This needs a VR headset browser. Open this address in the Meta Quest Browser.\")",
+      "evidence": [
+        "evidence/rt/RT-24-error-card.png",
+        "evidence/rt/RT-24-critical-asset.png"
+      ],
+      "seconds": 112,
+      "result": "Pass",
+      "note": "Restart after an error returns to the chapter opening, not to the title as the matrix text says"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "capturedAt": "2026-11-18T12:20:25.501Z",
+  "environment": "IWER Quest 3 emulator, managed Chromium (Playwright), desktop",
+  "phase": "after",
+  "startup": {
+    "status": "Seated. Hands only. About seven minutes. Headphones recommended.",
+    "enter": true
+  },
+  "consoleErrors": [
+    "Room Zero stopped: Error: QA injected failure\n    at g.session.tick (eval at evaluate (:370:30), <anonymous>:1:99)\n    at Game.step (https://localhost:8081/src/app/game.ts:224:20)\n    at GameDirectorS"
+  ],
+  "failedResources": [],
+  "shots": [
+    {
+      "id": "43-chapter-complete",
+      "title": "Chapter complete: begin again or leave",
+      "steps": [
+        "as 42",
+        "wait for ChapterComplete"
+      ],
+      "file": "qa/visual-audit/after/43-chapter-complete.png"
+    }
+  ]
+}

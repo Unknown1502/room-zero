@@ -1,0 +1,23 @@
+{
+  "capturedAt": "2026-11-18T15:36:27.587Z",
+  "environment": "IWER Quest 3 emulator, managed Chromium (Playwright), desktop",
+  "phase": "after2",
+  "startup": {
+    "status": "Seated. Hands only. About seven minutes. Headphones recommended.",
+    "enter": true
+  },
+  "consoleErrors": [],
+  "failedResources": [],
+  "shots": [
+    {
+      "id": "10-vantage-09-v-ceast-end",
+      "title": "Seat v-ceast-end (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-ceast-end",
+        "face forward"
+      ],
+      "file": "qa/graphics-pass/after2/10-vantage-09-v-ceast-end.png"
+    }
+  ]
+}

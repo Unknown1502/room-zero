@@ -1,0 +1,509 @@
+{
+  "label": "before",
+  "capturedAt": "2026-11-18T08:17:46.361Z",
+  "build": "vite build --mode production (this project's vite.config.ts)",
+  "initialJs": {
+    "raw": 2503258,
+    "gzip": 692626
+  },
+  "assetTotals": {
+    "js": 3300244,
+    "jsGzip": 983344,
+    "audio": 2405254,
+    "all": 5716119
+  },
+  "chunkTable": [
+    {
+      "file": "index-D9aMnsxB.js",
+      "raw": 2503258,
+      "gzip": 692626,
+      "initial": true,
+      "dynamicEntry": false,
+      "staticImports": 0,
+      "dynamicImports": 25
+    },
+    {
+      "file": "msdf-worker-BUaSHgMS.js",
+      "raw": 455987,
+      "gzip": 180252,
+      "initial": false,
+      "dynamicEntry": true,
+      "staticImports": 0,
+      "dynamicImports": 0
+    },
+    {
+      "file": "worker-D8yl70Ie.js",
+      "raw": 201876,
+      "gzip": 64692,
+      "initial": false,
+      "dynamicEntry": true,
+      "staticImports": 0,
+      "dynamicImports": 0
+    },
+    {
+      "file": "world-initializer-Dv476dBY.js",
+      "raw": 54403,
+      "gzip": 18311,
+      "initial": false,
+      "dynamicEntry": true,
+      "staticImports": 1,
+      "dynamicImports": 1
+    },
+    {
+      "file": "index-BjpV94Lt.js",
+      "raw": 21730,
+      "gzip": 6537,
+      "initial": false,
+      "dynamicEntry": true,
+      "staticImports": 1,
+      "dynamicImports": 1
+    },
+    {
+      "file": "dist-Brupejm_.js",
+      "raw": 6817,
+      "gzip": 2858,
+      "initial": false,
+      "dynamicEntry": true,
+      "staticImports": 0,
+      "dynamicImports": 0
+    },
+    {
+      "file": "physics-runtime-BN0A07FO.js",
+      "raw": 6340,
+      "gzip": 2511,
+      "initial": false,
+      "dynamicEntry": true,
+      "staticImports": 2,
+      "dynamicImports": 0
+    },
+    {
+      "file": "_virtual_iwsdk-disabled-bundled-fonts-CyX98Mcx.js",
+      "raw": 776,
+      "gzip": 463,
+      "initial": false,
+      "dynamicEntry": true,
+      "staticImports": 0,
+      "dynamicImports": 0
+    }
+  ],
+  "largestPackages": [
+    {
+      "name": "three",
+      "renderedKB": 2513.6,
+      "initialKB": 2513.6,
+      "modules": 25
+    },
+    {
+      "name": "@iwsdk/core",
+      "renderedKB": 854.3,
+      "initialKB": 661,
+      "modules": 134
+    },
+    {
+      "name": "@iwsdk/xr-input",
+      "renderedKB": 853.1,
+      "initialKB": 853.1,
+      "modules": 24
+    },
+    {
+      "name": "@pmndrs/uikit",
+      "renderedKB": 711,
+      "initialKB": 264,
+      "modules": 74
+    },
+    {
+      "name": "zod",
+      "renderedKB": 262.4,
+      "initialKB": 262.4,
+      "modules": 18
+    },
+    {
+      "name": "@iwsdk/locomotor",
+      "renderedKB": 244.7,
+      "initialKB": 47.6,
+      "modules": 11
+    },
+    {
+      "name": "@pmndrs/uikit-horizon",
+      "renderedKB": 180.7,
+      "initialKB": 180.7,
+      "modules": 30
+    },
+    {
+      "name": "three-mesh-bvh",
+      "renderedKB": 176.5,
+      "initialKB": 176.5,
+      "modules": 40
+    },
+    {
+      "name": "yoga-layout",
+      "renderedKB": 130.7,
+      "initialKB": 130.7,
+      "modules": 4
+    },
+    {
+      "name": "@iwsdk/scene-composition",
+      "renderedKB": 130.1,
+      "initialKB": 130.1,
+      "modules": 11
+    },
+    {
+      "name": "entities",
+      "renderedKB": 66.6,
+      "initialKB": 66.6,
+      "modules": 3
+    },
+    {
+      "name": "@drawcall/uikitml",
+      "renderedKB": 62.3,
+      "initialKB": 62.3,
+      "modules": 10
+    },
+    {
+      "name": "@pmndrs/pointer-events",
+      "renderedKB": 57.9,
+      "initialKB": 57.9,
+      "modules": 14
+    },
+    {
+      "name": "app: src/domain",
+      "renderedKB": 44.6,
+      "initialKB": 44.6,
+      "modules": 6
+    },
+    {
+      "name": "app: src/app",
+      "renderedKB": 41.3,
+      "initialKB": 41.3,
+      "modules": 3
+    },
+    {
+      "name": "@pmndrs/handle",
+      "renderedKB": 41,
+      "initialKB": 41,
+      "modules": 11
+    },
+    {
+      "name": "app: src/world",
+      "renderedKB": 37.8,
+      "initialKB": 37.8,
+      "modules": 3
+    },
+    {
+      "name": "elics",
+      "renderedKB": 34.4,
+      "initialKB": 34.3,
+      "modules": 12
+    }
+  ],
+  "topModules": [
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/three/build/three.core.js",
+      "bytes": 1157563
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/@iwsdk/xr-input/dist/gamepad/generated-profiles.js",
+      "bytes": 663445
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/three/build/three.module.js",
+      "bytes": 651794
+    },
+    {
+      "chunk": "msdf-worker-BUaSHgMS.js",
+      "module": "node_modules/@pmndrs/uikit/dist/loaders/msdf-worker.js",
+      "bytes": 457751
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/three/examples/jsm/lights/RectAreaLightTexturesLib.js",
+      "bytes": 309639
+    },
+    {
+      "chunk": "worker-D8yl70Ie.js",
+      "module": "node_modules/@iwsdk/locomotor/dist/worker/worker.js",
+      "bytes": 201862
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/yoga-layout/dist/binaries/yoga-wasm-base64-esm.js",
+      "bytes": 121050
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/@pmndrs/uikit-horizon/dist/theme.js",
+      "bytes": 114001
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/three/examples/jsm/loaders/GLTFLoader.js",
+      "bytes": 112927
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/three/examples/jsm/loaders/EXRLoader.js",
+      "bytes": 85845
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/zod/v4/core/schemas.js",
+      "bytes": 76370
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/three/examples/jsm/loaders/SVGLoader.js",
+      "bytes": 76364
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/@iwsdk/scene-composition/dist/validation.js",
+      "bytes": 55036
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/entities/dist/esm/generated/decode-data-html.js",
+      "bytes": 47719
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/three/examples/jsm/libs/zstddec.module.js",
+      "bytes": 39736
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/@iwsdk/scene-composition/dist/schema.js",
+      "bytes": 39267
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/@iwsdk/xr-input/dist/pointer/gaze-pointer.js",
+      "bytes": 38507
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "src/app/game.ts",
+      "bytes": 38067
+    },
+    {
+      "chunk": "index-BjpV94Lt.js",
+      "module": "node_modules/@iwsdk/core/dist/physics/physics-system.js",
+      "bytes": 37692
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/@iwsdk/core/dist/layers/xr-layer-system.js",
+      "bytes": 34142
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/@iwsdk/core/dist/scene-understanding/scene-understanding-system.js",
+      "bytes": 32980
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/zod/v4/classic/schemas.js",
+      "bytes": 32777
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/three/examples/jsm/loaders/KTX2Loader.js",
+      "bytes": 31367
+    },
+    {
+      "chunk": "world-initializer-Dv476dBY.js",
+      "module": "node_modules/@iwsdk/core/dist/mcp/scene-tools.js",
+      "bytes": 30694
+    },
+    {
+      "chunk": "index-D9aMnsxB.js",
+      "module": "node_modules/@iwsdk/core/dist/environment/environment-system.js",
+      "bytes": 29750
+    }
+  ],
+  "duplicatePackageCopies": [],
+  "files": {
+    "assets/dist-Brupejm_.js": {
+      "raw": 6817,
+      "gzip": 2858
+    },
+    "assets/index-BjpV94Lt.js": {
+      "raw": 21730,
+      "gzip": 6537
+    },
+    "assets/index-D9aMnsxB.js": {
+      "raw": 2503258,
+      "gzip": 692626
+    },
+    "assets/msdf-worker-BUaSHgMS.js": {
+      "raw": 455987,
+      "gzip": 180252
+    },
+    "assets/physics-runtime-BN0A07FO.js": {
+      "raw": 6340,
+      "gzip": 2511
+    },
+    "assets/physics-worker-C0UdwKyG.js": {
+      "raw": 7150,
+      "gzip": 2801
+    },
+    "assets/worker-D8yl70Ie.js": {
+      "raw": 201876,
+      "gzip": 64692
+    },
+    "assets/worker-_Lh8Vt-i.js": {
+      "raw": 41907,
+      "gzip": 12293
+    },
+    "assets/world-initializer-Dv476dBY.js": {
+      "raw": 54403,
+      "gzip": 18311
+    },
+    "assets/_virtual_iwsdk-disabled-bundled-fonts-CyX98Mcx.js": {
+      "raw": 776,
+      "gzip": 463
+    },
+    "audio/block.wav": {
+      "raw": 48554,
+      "gzip": null
+    },
+    "audio/brass.wav": {
+      "raw": 30914,
+      "gzip": null
+    },
+    "audio/chord.wav": {
+      "raw": 396944,
+      "gzip": null
+    },
+    "audio/clack.wav": {
+      "raw": 6218,
+      "gzip": null
+    },
+    "audio/clank.wav": {
+      "raw": 22094,
+      "gzip": null
+    },
+    "audio/closing.wav": {
+      "raw": 308744,
+      "gzip": null
+    },
+    "audio/creak.wav": {
+      "raw": 13274,
+      "gzip": null
+    },
+    "audio/flap.wav": {
+      "raw": 26504,
+      "gzip": null
+    },
+    "audio/grind.wav": {
+      "raw": 132344,
+      "gzip": null
+    },
+    "audio/groan.wav": {
+      "raw": 52964,
+      "gzip": null
+    },
+    "audio/hop.wav": {
+      "raw": 17684,
+      "gzip": null
+    },
+    "audio/hum.wav": {
+      "raw": 92654,
+      "gzip": null
+    },
+    "audio/knock.wav": {
+      "raw": 13274,
+      "gzip": null
+    },
+    "audio/lamp.wav": {
+      "raw": 13274,
+      "gzip": null
+    },
+    "audio/lock.wav": {
+      "raw": 52964,
+      "gzip": null
+    },
+    "audio/paper.wav": {
+      "raw": 15478,
+      "gzip": null
+    },
+    "audio/pen.wav": {
+      "raw": 61784,
+      "gzip": null
+    },
+    "audio/pencil.wav": {
+      "raw": 39734,
+      "gzip": null
+    },
+    "audio/plumb.wav": {
+      "raw": 158804,
+      "gzip": null
+    },
+    "audio/pulse.wav": {
+      "raw": 22094,
+      "gzip": null
+    },
+    "audio/ratchet.wav": {
+      "raw": 22094,
+      "gzip": null
+    },
+    "audio/rattle.wav": {
+      "raw": 18566,
+      "gzip": null
+    },
+    "audio/stamp.wav": {
+      "raw": 13274,
+      "gzip": null
+    },
+    "audio/step.wav": {
+      "raw": 17684,
+      "gzip": null
+    },
+    "audio/strain.wav": {
+      "raw": 70604,
+      "gzip": null
+    },
+    "audio/tape-long.wav": {
+      "raw": 149984,
+      "gzip": null
+    },
+    "audio/tape.wav": {
+      "raw": 48554,
+      "gzip": null
+    },
+    "audio/thud.wav": {
+      "raw": 39734,
+      "gzip": null
+    },
+    "audio/title.wav": {
+      "raw": 264644,
+      "gzip": null
+    },
+    "audio/tone.wav": {
+      "raw": 229364,
+      "gzip": null
+    },
+    "audio/wax.wav": {
+      "raw": 4454,
+      "gzip": null
+    },
+    "index.html": {
+      "raw": 3718,
+      "gzip": 1656
+    },
+    "scenes/AGENTS.md": {
+      "raw": 3514,
+      "gzip": null
+    },
+    "scenes/chapter-one.iwsdk.scene.json": {
+      "raw": 585,
+      "gzip": 287
+    },
+    "ui/AGENTS.md": {
+      "raw": 2804,
+      "gzip": null
+    }
+  }
+}

@@ -1,0 +1,1191 @@
+{
+  "capturedAt": "2026-11-17T11:06:24.590Z",
+  "session": {
+    "deviceName": "Meta Quest 3",
+    "sessionActive": true,
+    "sessionMode": "immersive-vr",
+    "runtimeKind": "emulated",
+    "enabledFeatures": [
+      "local-floor",
+      "bounded-floor",
+      "hand-tracking",
+      "viewer",
+      "local"
+    ]
+  },
+  "consoleLogCount": 48,
+  "warningAndErrorCount": 38,
+  "exactExternalModelUrls": [
+    "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb",
+    "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb",
+    "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb",
+    "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb"
+  ],
+  "relevantConsole": [
+    {
+      "timestamp": 1794911556868,
+      "level": "warn",
+      "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "args": [
+        "\"THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\""
+      ],
+      "columnNumber": 14,
+      "frameUrl": "https://localhost:8081/node_modules/.vite/deps/chunk-WNIOHBZ6.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 296,
+      "url": "https://localhost:8081/node_modules/.vite/deps/chunk-WNIOHBZ6.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794911610983,
+      "level": "log",
+      "message": "Nominal frame rate updated to 72",
+      "args": [
+        "\"Nominal frame rate updated to 72\""
+      ],
+      "columnNumber": 174843,
+      "frameUrl": "https://localhost:8081/@id/__x00__virtual:iwsdk-dev-runtime/chunks/injection-template-0HSd4CcE.js",
+      "kind": "console",
+      "lineNumber": 633,
+      "url": "https://localhost:8081/@id/__x00__virtual:iwsdk-dev-runtime/chunks/injection-template-0HSd4CcE.js"
+    },
+    {
+      "timestamp": 1794911620266,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb"
+    },
+    {
+      "timestamp": 1794911620266,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb"
+    },
+    {
+      "timestamp": 1794911620268,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794911620268,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb"
+    },
+    {
+      "timestamp": 1794911620268,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb"
+    },
+    {
+      "timestamp": 1794911620268,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794911859603,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb"
+    },
+    {
+      "timestamp": 1794911859603,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb"
+    },
+    {
+      "timestamp": 1794911859604,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794911859604,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb"
+    },
+    {
+      "timestamp": 1794911859604,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb"
+    },
+    {
+      "timestamp": 1794911859605,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794911973429,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb"
+    },
+    {
+      "timestamp": 1794911973429,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb"
+    },
+    {
+      "timestamp": 1794911973430,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794911973430,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb"
+    },
+    {
+      "timestamp": 1794911973430,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb"
+    },
+    {
+      "timestamp": 1794911973431,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794912310064,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb"
+    },
+    {
+      "timestamp": 1794912310064,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb"
+    },
+    {
+      "timestamp": 1794912310065,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794912310066,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb"
+    },
+    {
+      "timestamp": 1794912310066,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb"
+    },
+    {
+      "timestamp": 1794912310066,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794912314148,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb"
+    },
+    {
+      "timestamp": 1794912314148,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb"
+    },
+    {
+      "timestamp": 1794912314149,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794912314150,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb"
+    },
+    {
+      "timestamp": 1794912314150,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb"
+    },
+    {
+      "timestamp": 1794912314152,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794912368365,
+      "level": "warn",
+      "message": "THREE.WebGLRenderer: Can't change size while VR device is presenting.",
+      "args": [
+        "\"THREE.WebGLRenderer: Can't change size while VR device is presenting.\""
+      ],
+      "columnNumber": 14,
+      "frameUrl": "https://localhost:8081/node_modules/.vite/deps/chunk-WNIOHBZ6.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 296,
+      "url": "https://localhost:8081/node_modules/.vite/deps/chunk-WNIOHBZ6.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794912376430,
+      "level": "log",
+      "message": "Nominal frame rate updated to 72",
+      "args": [
+        "\"Nominal frame rate updated to 72\""
+      ],
+      "columnNumber": 174843,
+      "frameUrl": "https://localhost:8081/@id/__x00__virtual:iwsdk-dev-runtime/chunks/injection-template-0HSd4CcE.js",
+      "kind": "console",
+      "lineNumber": 633,
+      "url": "https://localhost:8081/@id/__x00__virtual:iwsdk-dev-runtime/chunks/injection-template-0HSd4CcE.js"
+    },
+    {
+      "timestamp": 1794912385641,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb"
+    },
+    {
+      "timestamp": 1794912385641,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb"
+    },
+    {
+      "timestamp": 1794912385642,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794912385642,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb"
+    },
+    {
+      "timestamp": 1794912385642,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb"
+    },
+    {
+      "timestamp": 1794912385642,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    }
+  ],
+  "consoleLogs": [
+    {
+      "timestamp": 1794911549978,
+      "level": "info",
+      "message": "Frame navigated: https://localhost:8081/?__iwsdkManagedWorkspace=[redacted]",
+      "args": [
+        "Frame navigated: https://localhost:8081/?__iwsdkManagedWorkspace=[redacted]"
+      ],
+      "frameUrl": "https://localhost:8081/?__iwsdkManagedWorkspace=[redacted]",
+      "kind": "navigation",
+      "url": "https://localhost:8081/?__iwsdkManagedWorkspace=[redacted]"
+    },
+    {
+      "timestamp": 1794911550009,
+      "level": "info",
+      "message": "Frame navigated: https://localhost:8081/",
+      "args": [
+        "Frame navigated: https://localhost:8081/"
+      ],
+      "frameUrl": "https://localhost:8081/",
+      "kind": "navigation",
+      "url": "https://localhost:8081/"
+    },
+    {
+      "timestamp": 1794911551099,
+      "level": "log",
+      "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: false, sem: null, ai: null}",
+      "args": [
+        "\"[IWSDK Dev] Configuration:\"",
+        "{\"device\":\"metaQuest3\",\"activation\":\"localhost\",\"verbose\":false,\"sem\":null,\"ai\":null,\"workspace\":{\"enabled\":true,\"open\":true,\"headless\":true,\"devUI\":true,\"browserAutomation\":true,\"viewport\":null,\"screenshotSize\":{\"width\":800,\"height\":800}},\"userAgentException\":\"/OculusBrowser/\",\"iwer\":true,\"nativeXRControl\":false}"
+      ],
+      "columnNumber": 1084215,
+      "frameUrl": "https://localhost:8081/@id/__x00__virtual:iwsdk-dev-runtime/chunks/injection-template-0HSd4CcE.js",
+      "kind": "console",
+      "lineNumber": 983,
+      "url": "https://localhost:8081/@id/__x00__virtual:iwsdk-dev-runtime/chunks/injection-template-0HSd4CcE.js"
+    },
+    {
+      "timestamp": 1794911553914,
+      "level": "log",
+      "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v1.1.0\nThree.js r185\nEliCS v3.4.2",
+      "args": [
+        "\"                                                 \\n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \\n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \\n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \\n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \\n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \\n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \\n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \\n===============================================\\nImmersive Web SDK v1.1.0\\nThree.js r185\\nEliCS v3.4.2\""
+      ],
+      "columnNumber": 8,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/core/dist/index.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 122,
+      "url": "https://localhost:8081/node_modules/@iwsdk/core/dist/index.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794911553937,
+      "level": "info",
+      "message": "Frame navigated: about:blank",
+      "args": [
+        "Frame navigated: about:blank"
+      ],
+      "frameUrl": "about:blank",
+      "kind": "navigation",
+      "url": "about:blank",
+      "repeatCount": 2
+    },
+    {
+      "timestamp": 1794911554866,
+      "level": "info",
+      "message": "Frame navigated: https://localhost:8081/",
+      "args": [
+        "Frame navigated: https://localhost:8081/"
+      ],
+      "frameUrl": "https://localhost:8081/",
+      "kind": "navigation",
+      "url": "https://localhost:8081/"
+    },
+    {
+      "timestamp": 1794911556868,
+      "level": "warn",
+      "message": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "args": [
+        "\"THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\""
+      ],
+      "columnNumber": 14,
+      "frameUrl": "https://localhost:8081/node_modules/.vite/deps/chunk-WNIOHBZ6.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 296,
+      "url": "https://localhost:8081/node_modules/.vite/deps/chunk-WNIOHBZ6.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794911557728,
+      "level": "log",
+      "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: false, sem: null, ai: null}",
+      "args": [
+        "\"[IWSDK Dev] Configuration:\"",
+        "{\"device\":\"metaQuest3\",\"activation\":\"localhost\",\"verbose\":false,\"sem\":null,\"ai\":null,\"workspace\":{\"enabled\":true,\"open\":true,\"headless\":true,\"devUI\":true,\"browserAutomation\":true,\"viewport\":null,\"screenshotSize\":{\"width\":800,\"height\":800}},\"userAgentException\":\"/OculusBrowser/\",\"iwer\":true,\"nativeXRControl\":false}"
+      ],
+      "columnNumber": 1084215,
+      "frameUrl": "https://localhost:8081/@id/__x00__virtual:iwsdk-dev-runtime/chunks/injection-template-0HSd4CcE.js",
+      "kind": "console",
+      "lineNumber": 983,
+      "url": "https://localhost:8081/@id/__x00__virtual:iwsdk-dev-runtime/chunks/injection-template-0HSd4CcE.js"
+    },
+    {
+      "timestamp": 1794911558082,
+      "level": "log",
+      "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v1.1.0\nThree.js r185\nEliCS v3.4.2",
+      "args": [
+        "\"                                                 \\n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \\n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \\n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \\n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \\n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \\n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \\n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \\n===============================================\\nImmersive Web SDK v1.1.0\\nThree.js r185\\nEliCS v3.4.2\""
+      ],
+      "columnNumber": 8,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/core/dist/index.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 122,
+      "url": "https://localhost:8081/node_modules/@iwsdk/core/dist/index.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794911610983,
+      "level": "log",
+      "message": "Nominal frame rate updated to 72",
+      "args": [
+        "\"Nominal frame rate updated to 72\""
+      ],
+      "columnNumber": 174843,
+      "frameUrl": "https://localhost:8081/@id/__x00__virtual:iwsdk-dev-runtime/chunks/injection-template-0HSd4CcE.js",
+      "kind": "console",
+      "lineNumber": 633,
+      "url": "https://localhost:8081/@id/__x00__virtual:iwsdk-dev-runtime/chunks/injection-template-0HSd4CcE.js"
+    },
+    {
+      "timestamp": 1794911620266,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb"
+    },
+    {
+      "timestamp": 1794911620266,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb"
+    },
+    {
+      "timestamp": 1794911620268,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794911620268,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb"
+    },
+    {
+      "timestamp": 1794911620268,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb"
+    },
+    {
+      "timestamp": 1794911620268,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794911859603,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb"
+    },
+    {
+      "timestamp": 1794911859603,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb"
+    },
+    {
+      "timestamp": 1794911859604,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794911859604,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb"
+    },
+    {
+      "timestamp": 1794911859604,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb"
+    },
+    {
+      "timestamp": 1794911859605,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794911973429,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb"
+    },
+    {
+      "timestamp": 1794911973429,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb"
+    },
+    {
+      "timestamp": 1794911973430,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794911973430,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb"
+    },
+    {
+      "timestamp": 1794911973430,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb"
+    },
+    {
+      "timestamp": 1794911973431,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794912310064,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb"
+    },
+    {
+      "timestamp": 1794912310064,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb"
+    },
+    {
+      "timestamp": 1794912310065,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/left.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794912310066,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb"
+    },
+    {
+      "timestamp": 1794912310066,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb"
+    },
+    {
+      "timestamp": 1794912310066,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/generic-hand/right.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794912314148,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb"
+    },
+    {
+      "timestamp": 1794912314148,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb"
+    },
+    {
+      "timestamp": 1794912314149,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794912314150,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb"
+    },
+    {
+      "timestamp": 1794912314150,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb"
+    },
+    {
+      "timestamp": 1794912314152,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794912368365,
+      "level": "warn",
+      "message": "THREE.WebGLRenderer: Can't change size while VR device is presenting.",
+      "args": [
+        "\"THREE.WebGLRenderer: Can't change size while VR device is presenting.\""
+      ],
+      "columnNumber": 14,
+      "frameUrl": "https://localhost:8081/node_modules/.vite/deps/chunk-WNIOHBZ6.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 296,
+      "url": "https://localhost:8081/node_modules/.vite/deps/chunk-WNIOHBZ6.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794912376430,
+      "level": "log",
+      "message": "Nominal frame rate updated to 72",
+      "args": [
+        "\"Nominal frame rate updated to 72\""
+      ],
+      "columnNumber": 174843,
+      "frameUrl": "https://localhost:8081/@id/__x00__virtual:iwsdk-dev-runtime/chunks/injection-template-0HSd4CcE.js",
+      "kind": "console",
+      "lineNumber": 633,
+      "url": "https://localhost:8081/@id/__x00__virtual:iwsdk-dev-runtime/chunks/injection-template-0HSd4CcE.js"
+    },
+    {
+      "timestamp": 1794912385641,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb"
+    },
+    {
+      "timestamp": 1794912385641,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb"
+    },
+    {
+      "timestamp": 1794912385642,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/left.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    },
+    {
+      "timestamp": 1794912385642,
+      "level": "error",
+      "message": "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "GET https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED",
+      "frameUrl": "https://localhost:8081/",
+      "kind": "requestfailed",
+      "method": "GET",
+      "resourceType": "fetch",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb"
+    },
+    {
+      "timestamp": 1794912385642,
+      "level": "error",
+      "message": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+      "args": [
+        "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED"
+      ],
+      "columnNumber": 0,
+      "frameUrl": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb",
+      "kind": "console",
+      "lineNumber": 0,
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb"
+    },
+    {
+      "timestamp": 1794912385642,
+      "level": "warn",
+      "message": "[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb; input will be tracked without a visual.",
+      "args": [
+        "\"[xr-input] Failed to load visual asset https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0/dist/profiles/meta-quest-touch-plus/right.glb; input will be tracked without a visual.\""
+      ],
+      "columnNumber": 24,
+      "frameUrl": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc",
+      "kind": "console",
+      "lineNumber": 106,
+      "url": "https://localhost:8081/node_modules/@iwsdk/xr-input/dist/visual/adapter/base-visual-adapter.js?v=c0a643bc"
+    }
+  ]
+}

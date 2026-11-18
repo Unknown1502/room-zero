@@ -1,0 +1,50 @@
+{
+  "capturedAt": "2026-11-18T14:11:33.915Z",
+  "environment": "IWER Quest 3 emulator, managed Chromium (Playwright), desktop",
+  "phase": "after",
+  "startup": {
+    "status": "Seated. Hands only. About seven minutes. Headphones recommended.",
+    "enter": true
+  },
+  "consoleErrors": [],
+  "failedResources": [],
+  "shots": [
+    {
+      "id": "02-xr-title",
+      "title": "Title in VR: the envelope, the begin seal",
+      "steps": [
+        "enter the session",
+        "EndSession to the title",
+        "face forward"
+      ],
+      "file": "qa/experience-polish/after/02-xr-title.png"
+    },
+    {
+      "id": "04-foyer-start",
+      "title": "First playable view: the Entrance Hall seat",
+      "steps": [
+        "checkpoint cp-arrival",
+        "face forward"
+      ],
+      "file": "qa/experience-polish/after/04-foyer-start.png"
+    },
+    {
+      "id": "20-seam-hall-closed",
+      "title": "Foyer door seat, seam-hall not yet moved (doorway closed, grips at rest)",
+      "steps": [
+        "cp-arrival",
+        "v-foyer-door"
+      ],
+      "file": "qa/experience-polish/after/20-seam-hall-closed.png"
+    },
+    {
+      "id": "23-stair-head-brace",
+      "title": "Stair head seat, seam-landing not yet moved (the first seam that needs a brace hand)",
+      "steps": [
+        "cp-stairhead",
+        "v-stair-head"
+      ],
+      "file": "qa/experience-polish/after/23-stair-head-brace.png"
+    }
+  ]
+}

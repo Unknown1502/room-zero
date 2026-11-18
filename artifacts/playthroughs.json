@@ -1,0 +1,106 @@
+{
+  "environment": "IWER desktop emulator, hands only, fresh profile (storage cleared and page reloaded before each run)",
+  "runs": [
+    {
+      "run": 1,
+      "startedAt": "2026-11-18T09:49:37.342Z",
+      "storedKeysAtStart": [],
+      "result": "completed",
+      "seconds": 360,
+      "endGame": "ChapterComplete",
+      "postmarks": [
+        "ENTRANCE",
+        "STAIR",
+        "LANDING",
+        "WEST",
+        "EAST",
+        "LAST POST"
+      ],
+      "objectives": 5,
+      "catches": 0,
+      "settingsAtEnd": {
+        "snapTurn": 0,
+        "intensity": "standard",
+        "hands": "two",
+        "volume": 1
+      },
+      "interactionFailures": [
+        "hop to v-stair-head: attempt 1 had no effect (__rz.session.vantage === 'v-stair-head' && __rz.fade < 0.05)",
+        "hop to v-stair-head: needed 2 attempts",
+        "hop to v-landing-east: attempt 1 had no effect (__rz.session.vantage === 'v-landing-east' && __rz.fade < 0.05)",
+        "hop to v-landing-east: needed 2 attempts",
+        "fast hop from v-lift: press had no effect"
+      ],
+      "consoleErrors": [],
+      "finishedAt": "2026-11-18T09:56:26.757Z"
+    },
+    {
+      "run": 2,
+      "startedAt": "2026-11-18T09:56:26.770Z",
+      "storedKeysAtStart": [],
+      "result": "completed",
+      "seconds": 335.8,
+      "endGame": "ChapterComplete",
+      "postmarks": [
+        "ENTRANCE",
+        "STAIR",
+        "LANDING",
+        "WEST",
+        "EAST",
+        "LAST POST"
+      ],
+      "objectives": 5,
+      "catches": 0,
+      "settingsAtEnd": {
+        "snapTurn": 0,
+        "intensity": "standard",
+        "hands": "two",
+        "volume": 1
+      },
+      "interactionFailures": [
+        "hop to v-stair-head: attempt 1 had no effect (__rz.session.vantage === 'v-stair-head' && __rz.fade < 0.05)",
+        "hop to v-stair-head: needed 2 attempts",
+        "hop to v-landing-east: attempt 1 had no effect (__rz.session.vantage === 'v-landing-east' && __rz.fade < 0.05)",
+        "hop to v-landing-east: needed 2 attempts",
+        "fast hop from v-lift: press had no effect"
+      ],
+      "consoleErrors": [],
+      "finishedAt": "2026-11-18T10:02:46.090Z"
+    },
+    {
+      "run": 3,
+      "startedAt": "2026-11-18T10:02:46.092Z",
+      "storedKeysAtStart": [],
+      "result": "completed",
+      "seconds": 432.1,
+      "endGame": "ChapterComplete",
+      "postmarks": [
+        "ENTRANCE",
+        "STAIR",
+        "LANDING",
+        "WEST",
+        "EAST",
+        "LAST POST"
+      ],
+      "objectives": 5,
+      "catches": 0,
+      "settingsAtEnd": {
+        "snapTurn": 0,
+        "intensity": "standard",
+        "hands": "two",
+        "volume": 1
+      },
+      "interactionFailures": [
+        "hop to v-stair-head: attempt 1 had no effect (__rz.session.vantage === 'v-stair-head' && __rz.fade < 0.05)",
+        "hop to v-stair-head: needed 2 attempts",
+        "hop to v-landing-east: attempt 1 had no effect (__rz.session.vantage === 'v-landing-east' && __rz.fade < 0.05)",
+        "hop to v-landing-east: needed 2 attempts",
+        "take the bridge lever again: attempt 1 had no effect (__rz.session.seams['seam-bridge'].phase === 'held')",
+        "take the bridge lever again: needed 2 attempts",
+        "fast hop from v-lift: press had no effect"
+      ],
+      "consoleErrors": [],
+      "finishedAt": "2026-11-18T10:10:46.359Z"
+    }
+  ]
+}

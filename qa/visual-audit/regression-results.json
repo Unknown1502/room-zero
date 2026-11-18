@@ -1,0 +1,59 @@
+{
+  "capturedAt": "2026-11-18T15:39:37.586Z",
+  "results": [
+    {
+      "id": "V1",
+      "name": "flat page: letter and seals hidden",
+      "ok": true,
+      "detail": "{\"session\":false,\"letter\":false,\"seals\":false}"
+    },
+    {
+      "id": "V1",
+      "name": "in the session at the title: letter and begin seal shown",
+      "ok": true,
+      "detail": "{\"session\":true,\"letter\":true,\"begin\":true}"
+    },
+    {
+      "id": "V2",
+      "name": "closing title card is upright and faces the seat",
+      "ok": true,
+      "detail": "facing 0.967, |normal.y| 0"
+    },
+    {
+      "id": "V3",
+      "name": "ending card is at least 0.3 m wide with dark ink on light paper",
+      "ok": true,
+      "detail": "width 0.34, ink 25, paper 229"
+    },
+    {
+      "id": "V4",
+      "name": "error card: no text pixels under the RETRY seal",
+      "ok": true,
+      "detail": "bright pixels under the seal: 0 (area 116x95)"
+    },
+    {
+      "id": "V5",
+      "name": "lift port wall is 1 cm off the docking plane",
+      "ok": true,
+      "detail": "port wall z: [-1.99]"
+    },
+    {
+      "id": "V8",
+      "name": "seam joins: the new lamp pulses; a hop starts no pulse",
+      "ok": true,
+      "detail": "{\"none\":0,\"rested\":true,\"after\":2.4,\"afterHop\":0}"
+    },
+    {
+      "id": "V9",
+      "name": "rooms have different wall colours (foyer warm, east corridor cold)",
+      "ok": true,
+      "detail": "{\"foyer\":\"ffe3b8\",\"east\":\"b4c1d6\"}"
+    },
+    {
+      "id": "V10",
+      "name": "the Surveyor's ring glows; the shared brass does not",
+      "ok": true,
+      "detail": "{\"ring\":0.85,\"brassEmissive\":0}"
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "capturedAt": "2026-11-18T13:52:25.783Z",
+  "note": "File analysis only. Not auditioned by a person or by the assistant: no playback capability was used.",
+  "files": 31,
+  "totalBytes": 2405254,
+  "rmsSpreadDb": 20.7,
+  "flagged": [
+    {
+      "name": "thud",
+      "issues": [
+        "peak -0.4 dBFS (very hot)"
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "name": "block",
+      "bytes": 48554,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 1.1,
+      "peakDb": -3.1,
+      "rmsDb": -14.3,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0.01,
+      "loopSeamJump": 0,
+      "dc": 0,
+      "gameCalls": 1,
+      "gameLines": [
+        303
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "brass",
+      "bytes": 30914,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.7,
+      "peakDb": -12,
+      "rmsDb": -24.4,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0,
+      "loopSeamJump": 0,
+      "dc": 0,
+      "gameCalls": 0,
+      "gameLines": [],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "chord",
+      "bytes": 396944,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 9,
+      "peakDb": -6,
+      "rmsDb": -17.8,
+      "clipped": 0,
+      "leadSilenceS": 0.02,
+      "tailSilenceS": 0.03,
+      "loopSeamJump": 0,
+      "dc": 0,
+      "gameCalls": 2,
+      "gameLines": [
+        329,
+        717
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "clack",
+      "bytes": 6218,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.14,
+      "peakDb": -4.4,
+      "rmsDb": -22.1,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0.01,
+      "loopSeamJump": 0.002,
+      "dc": 0,
+      "gameCalls": 3,
+      "gameLines": [
+        301,
+        302,
+        304
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "clank",
+      "bytes": 22094,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.5,
+      "peakDb": -3.1,
+      "rmsDb": -22.6,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0.17,
+      "loopSeamJump": 0,
+      "dc": 0.0001,
+      "gameCalls": 1,
+      "gameLines": [
+        307
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "closing",
+      "bytes": 308744,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 7,
+      "peakDb": -1.9,
+      "rmsDb": -8.8,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0,
+      "loopSeamJump": 0.014,
+      "dc": 0,
+      "gameCalls": 3,
+      "gameLines": [
+        316,
+        330,
+        407
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "creak",
+      "bytes": 13274,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.3,
+      "peakDb": -9.1,
+      "rmsDb": -22.3,
+      "clipped": 0,
+      "leadSilenceS": 0.01,
+      "tailSilenceS": 0.01,
+      "loopSeamJump": 0,
+      "dc": 0,
+      "gameCalls": 2,
+      "gameLines": [
+        299,
+        300
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "flap",
+      "bytes": 26504,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.6,
+      "peakDb": -4.4,
+      "rmsDb": -24.3,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0.24,
+      "loopSeamJump": 0,
+      "dc": 0.0002,
+      "gameCalls": 1,
+      "gameLines": [
+        291
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "grind",
+      "bytes": 132344,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 3,
+      "peakDb": -1.9,
+      "rmsDb": -12.5,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0,
+      "loopSeamJump": 0.073,
+      "dc": 0,
+      "gameCalls": 2,
+      "gameLines": [
+        293,
+        473
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "groan",
+      "bytes": 52964,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 1.2,
+      "peakDb": -4.4,
+      "rmsDb": -16.6,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0,
+      "loopSeamJump": 0,
+      "dc": 0,
+      "gameCalls": 1,
+      "gameLines": [
+        305
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "hop",
+      "bytes": 17684,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.4,
+      "peakDb": -8,
+      "rmsDb": -21.9,
+      "clipped": 0,
+      "leadSilenceS": 0.02,
+      "tailSilenceS": 0.01,
+      "loopSeamJump": 0,
+      "dc": 0.0013,
+      "gameCalls": 1,
+      "gameLines": [
+        311
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "hum",
+      "bytes": 92654,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 2.1,
+      "peakDb": -8,
+      "rmsDb": -14.5,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0,
+      "loopSeamJump": 0.018,
+      "dc": 0,
+      "gameCalls": 1,
+      "gameLines": [
+        474
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "knock",
+      "bytes": 13274,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.3,
+      "peakDb": -0.9,
+      "rmsDb": -18.8,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0.03,
+      "loopSeamJump": 0,
+      "dc": 0.0002,
+      "gameCalls": 2,
+      "gameLines": [
+        317,
+        484
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "lamp",
+      "bytes": 13274,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.3,
+      "peakDb": -8,
+      "rmsDb": -24.4,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0.02,
+      "loopSeamJump": 0,
+      "dc": 0,
+      "gameCalls": 1,
+      "gameLines": [
+        310
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "lock",
+      "bytes": 52964,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 1.2,
+      "peakDb": -3.1,
+      "rmsDb": -23.8,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0.3,
+      "loopSeamJump": 0,
+      "dc": 0.0002,
+      "gameCalls": 1,
+      "gameLines": [
+        309
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "paper",
+      "bytes": 15478,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.35,
+      "peakDb": -9.1,
+      "rmsDb": -21.3,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0,
+      "loopSeamJump": 0,
+      "dc": 0,
+      "gameCalls": 2,
+      "gameLines": [
+        312,
+        329
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "pen",
+      "bytes": 61784,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 1.4,
+      "peakDb": -10.5,
+      "rmsDb": -22.1,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0,
+      "loopSeamJump": 0.001,
+      "dc": 0,
+      "gameCalls": 1,
+      "gameLines": [
+        314
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "pencil",
+      "bytes": 39734,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.9,
+      "peakDb": -6.9,
+      "rmsDb": -22.8,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0.1,
+      "loopSeamJump": 0,
+      "dc": 0,
+      "gameCalls": 2,
+      "gameLines": [
+        321,
+        324
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "plumb",
+      "bytes": 158804,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 3.6,
+      "peakDb": -6,
+      "rmsDb": -29.5,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0.05,
+      "loopSeamJump": 0.056,
+      "dc": 0,
+      "gameCalls": 1,
+      "gameLines": [
+        325
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "pulse",
+      "bytes": 22094,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.5,
+      "peakDb": -3.1,
+      "rmsDb": -16.9,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0,
+      "loopSeamJump": 0.002,
+      "dc": -0.0003,
+      "gameCalls": 1,
+      "gameLines": [
+        701
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "ratchet",
+      "bytes": 22094,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.5,
+      "peakDb": -6,
+      "rmsDb": -26.8,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0.09,
+      "loopSeamJump": 0,
+      "dc": 0,
+      "gameCalls": 1,
+      "gameLines": [
+        305
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "rattle",
+      "bytes": 18566,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.42,
+      "peakDb": -5.2,
+      "rmsDb": -24.1,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0.07,
+      "loopSeamJump": 0,
+      "dc": 0,
+      "gameCalls": 1,
+      "gameLines": [
+        300
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "stamp",
+      "bytes": 13274,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.3,
+      "peakDb": -2.5,
+      "rmsDb": -17.9,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0.04,
+      "loopSeamJump": 0.001,
+      "dc": 0.0024,
+      "gameCalls": 1,
+      "gameLines": [
+        313
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "step",
+      "bytes": 17684,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.4,
+      "peakDb": -2.5,
+      "rmsDb": -18.6,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0,
+      "loopSeamJump": 0,
+      "dc": 0.0043,
+      "gameCalls": 1,
+      "gameLines": [
+        701
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "strain",
+      "bytes": 70604,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 1.6,
+      "peakDb": -4.4,
+      "rmsDb": -15.8,
+      "clipped": 0,
+      "leadSilenceS": 0.01,
+      "tailSilenceS": 0,
+      "loopSeamJump": 0,
+      "dc": 0,
+      "gameCalls": 1,
+      "gameLines": [
+        322
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "tape-long",
+      "bytes": 149984,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 3.4,
+      "peakDb": -4.4,
+      "rmsDb": -17.3,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0,
+      "loopSeamJump": 0.001,
+      "dc": 0,
+      "gameCalls": 2,
+      "gameLines": [
+        296,
+        319
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "tape",
+      "bytes": 48554,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 1.1,
+      "peakDb": -4.4,
+      "rmsDb": -17.8,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0,
+      "loopSeamJump": 0,
+      "dc": 0,
+      "gameCalls": 2,
+      "gameLines": [
+        321,
+        324
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "thud",
+      "bytes": 39734,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.9,
+      "peakDb": -0.4,
+      "rmsDb": -14.2,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0,
+      "loopSeamJump": 0.009,
+      "dc": 0.0015,
+      "gameCalls": 1,
+      "gameLines": [
+        306
+      ],
+      "referenced": true,
+      "issues": [
+        "peak -0.4 dBFS (very hot)"
+      ]
+    },
+    {
+      "name": "title",
+      "bytes": 264644,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 6,
+      "peakDb": -6,
+      "rmsDb": -18.6,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0.4,
+      "loopSeamJump": 0,
+      "dc": 0,
+      "gameCalls": 1,
+      "gameLines": [
+        294
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "tone",
+      "bytes": 229364,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 5.2,
+      "peakDb": -6,
+      "rmsDb": -18.5,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0,
+      "loopSeamJump": 0.012,
+      "dc": 0,
+      "gameCalls": 1,
+      "gameLines": [
+        381
+      ],
+      "referenced": true,
+      "issues": []
+    },
+    {
+      "name": "wax",
+      "bytes": 4454,
+      "format": "16-bit 22050 Hz mono",
+      "seconds": 0.1,
+      "peakDb": -6,
+      "rmsDb": -25.1,
+      "clipped": 0,
+      "leadSilenceS": 0,
+      "tailSilenceS": 0.04,
+      "loopSeamJump": 0,
+      "dc": 0,
+      "gameCalls": 4,
+      "gameLines": [
+        272,
+        283,
+        312,
+        328
+      ],
+      "referenced": true,
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "label": "start (setup sets two/standard/off)",
+    "settings": {
+      "snapTurn": 0,
+      "intensity": "standard",
+      "hands": "two",
+      "volume": 1
+    }
+  },
+  {
+    "label": "letter at -0.30,0.82,-0.30",
+    "settings": {
+      "snapTurn": 0,
+      "intensity": "standard",
+      "hands": "two",
+      "volume": 1
+    }
+  },
+  {
+    "label": "left hand rested at the letter",
+    "settings": {
+      "snapTurn": 0,
+      "intensity": "standard",
+      "hands": "two",
+      "volume": 1
+    }
+  },
+  {
+    "label": "letter taken",
+    "settings": {
+      "snapTurn": 0,
+      "intensity": "standard",
+      "hands": "one",
+      "volume": 1
+    }
+  },
+  {
+    "label": "letter released at the pigeonhole",
+    "settings": {
+      "snapTurn": 0,
+      "intensity": "standard",
+      "hands": "one",
+      "volume": 1
+    }
+  },
+  {
+    "label": "after delivery, hands parked",
+    "settings": {
+      "snapTurn": 0,
+      "intensity": "standard",
+      "hands": "one",
+      "volume": 1
+    }
+  }
+]

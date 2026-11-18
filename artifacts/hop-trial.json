@@ -1,0 +1,956 @@
+{
+  "capturedAt": "2026-11-17T22:25:28.421Z",
+  "environment": "IWER desktop emulator",
+  "out": [
+    {
+      "hoverMs": 0,
+      "attempts": 24,
+      "firstAttemptOk": 11,
+      "rows": [
+        {
+          "i": 0,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 1,
+          "from": "v-lift",
+          "to": "v-zero",
+          "tries": 4,
+          "moved": false,
+          "requestHopCalls": [
+            [],
+            [],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ]
+          ]
+        },
+        {
+          "i": 2,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 2,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0.784,
+                "pending": false,
+                "reachable": true
+              }
+            ],
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 3,
+          "from": "v-lift",
+          "to": "v-ceast-end",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            []
+          ]
+        },
+        {
+          "i": 4,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 2,
+          "moved": true,
+          "requestHopCalls": [
+            [],
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 5,
+          "from": "v-lift",
+          "to": "v-zero",
+          "tries": 4,
+          "moved": false,
+          "requestHopCalls": [
+            [],
+            [],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ]
+          ]
+        },
+        {
+          "i": 6,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 7,
+          "from": "v-lift",
+          "to": "v-ceast-end",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            []
+          ]
+        },
+        {
+          "i": 8,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 2,
+          "moved": true,
+          "requestHopCalls": [
+            [],
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 9,
+          "from": "v-lift",
+          "to": "v-zero",
+          "tries": 4,
+          "moved": false,
+          "requestHopCalls": [
+            [],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ]
+          ]
+        },
+        {
+          "i": 10,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 11,
+          "from": "v-lift",
+          "to": "v-ceast-end",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            []
+          ]
+        },
+        {
+          "i": 12,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 2,
+          "moved": true,
+          "requestHopCalls": [
+            [],
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 13,
+          "from": "v-lift",
+          "to": "v-zero",
+          "tries": 4,
+          "moved": false,
+          "requestHopCalls": [
+            [],
+            [
+              {
+                "v": "v-zero",
+                "fade": 1,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ]
+          ]
+        },
+        {
+          "i": 14,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 15,
+          "from": "v-lift",
+          "to": "v-ceast-end",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            []
+          ]
+        },
+        {
+          "i": 16,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 2,
+          "moved": true,
+          "requestHopCalls": [
+            [],
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 17,
+          "from": "v-lift",
+          "to": "v-zero",
+          "tries": 4,
+          "moved": false,
+          "requestHopCalls": [
+            [],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ]
+          ]
+        },
+        {
+          "i": 18,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 19,
+          "from": "v-lift",
+          "to": "v-ceast-end",
+          "tries": 2,
+          "moved": true,
+          "requestHopCalls": [
+            [],
+            []
+          ]
+        },
+        {
+          "i": 20,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 21,
+          "from": "v-lift",
+          "to": "v-zero",
+          "tries": 4,
+          "moved": false,
+          "requestHopCalls": [
+            [],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ]
+          ]
+        },
+        {
+          "i": 22,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 23,
+          "from": "v-lift",
+          "to": "v-ceast-end",
+          "tries": 2,
+          "moved": true,
+          "requestHopCalls": [
+            [],
+            []
+          ]
+        }
+      ]
+    },
+    {
+      "hoverMs": 400,
+      "attempts": 24,
+      "firstAttemptOk": 18,
+      "rows": [
+        {
+          "i": 0,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 1,
+          "from": "v-lift",
+          "to": "v-zero",
+          "tries": 4,
+          "moved": false,
+          "requestHopCalls": [
+            [],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ]
+          ]
+        },
+        {
+          "i": 2,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 3,
+          "from": "v-lift",
+          "to": "v-ceast-end",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            []
+          ]
+        },
+        {
+          "i": 4,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 5,
+          "from": "v-lift",
+          "to": "v-zero",
+          "tries": 4,
+          "moved": false,
+          "requestHopCalls": [
+            [],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ]
+          ]
+        },
+        {
+          "i": 6,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 7,
+          "from": "v-lift",
+          "to": "v-ceast-end",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            []
+          ]
+        },
+        {
+          "i": 8,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 9,
+          "from": "v-lift",
+          "to": "v-zero",
+          "tries": 4,
+          "moved": false,
+          "requestHopCalls": [
+            [],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ]
+          ]
+        },
+        {
+          "i": 10,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 11,
+          "from": "v-lift",
+          "to": "v-ceast-end",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            []
+          ]
+        },
+        {
+          "i": 12,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 13,
+          "from": "v-lift",
+          "to": "v-zero",
+          "tries": 4,
+          "moved": false,
+          "requestHopCalls": [
+            [],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ]
+          ]
+        },
+        {
+          "i": 14,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 15,
+          "from": "v-lift",
+          "to": "v-ceast-end",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            []
+          ]
+        },
+        {
+          "i": 16,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 17,
+          "from": "v-lift",
+          "to": "v-zero",
+          "tries": 4,
+          "moved": false,
+          "requestHopCalls": [
+            [],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ]
+          ]
+        },
+        {
+          "i": 18,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 19,
+          "from": "v-lift",
+          "to": "v-ceast-end",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            []
+          ]
+        },
+        {
+          "i": 20,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 21,
+          "from": "v-lift",
+          "to": "v-zero",
+          "tries": 4,
+          "moved": false,
+          "requestHopCalls": [
+            [],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ],
+            [
+              {
+                "v": "v-zero",
+                "fade": 0,
+                "pending": false,
+                "reachable": false
+              }
+            ]
+          ]
+        },
+        {
+          "i": 22,
+          "from": "v-ceast-end",
+          "to": "v-lift",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            [
+              {
+                "v": "v-lift",
+                "fade": 0,
+                "pending": false,
+                "reachable": true
+              }
+            ]
+          ]
+        },
+        {
+          "i": 23,
+          "from": "v-lift",
+          "to": "v-ceast-end",
+          "tries": 1,
+          "moved": true,
+          "requestHopCalls": [
+            []
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,784 @@
+{
+  "label": "baseline",
+  "capturedAt": "2026-11-18T08:23:51.363Z",
+  "environment": "IWER desktop emulator (Quest 3 profile), managed headless Chromium, software or desktop GL. NOT a Quest measurement.",
+  "build": "development server (unbundled source modules)",
+  "capabilities": {
+    "renderer": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x00009A49) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "gpuTimerQuery": true,
+    "preciseMemory": true,
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64; Quest 3) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/33.0.0.x.x.x Chrome/126.0.6478.122 VR Safari/537.36",
+    "cores": 8
+  },
+  "results": {
+    "startup": {
+      "msSincePageLoad": 4123,
+      "nav": 1735,
+      "note": "time from page load to the game object existing, polled every 250 ms (an upper bound), dev server with source modules"
+    },
+    "title": {
+      "frames": 478,
+      "seconds": 8,
+      "fps": 59.7,
+      "frameMs": {
+        "p50": 16.7,
+        "p95": 18.1,
+        "p99": 22.2,
+        "max": 34
+      },
+      "cpuMs": {
+        "HandInputSystem": {
+          "n": 478,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.2
+        },
+        "PointerInputSystem": {
+          "n": 478,
+          "p50": 0.1,
+          "p95": 0.2,
+          "max": 0.4
+        },
+        "LifecycleSystem": {
+          "n": 478,
+          "p50": 0,
+          "p95": 0,
+          "max": 0.1
+        },
+        "domain tick": {
+          "n": 160,
+          "p50": 0,
+          "p95": 0,
+          "max": 0.1
+        },
+        "GameDirectorSystem": {
+          "n": 478,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.2
+        },
+        "PresentationSystem": {
+          "n": 478,
+          "p50": 0.5,
+          "p95": 0.7,
+          "max": 1
+        },
+        "world.update (all systems)": {
+          "n": 478,
+          "p50": 1.8,
+          "p95": 2.5,
+          "max": 3.2
+        },
+        "renderer.render (CPU submit)": {
+          "n": 478,
+          "p50": 8.8,
+          "p95": 10.4,
+          "max": 29.6
+        }
+      },
+      "drawCalls": {
+        "p50": 806,
+        "max": 806
+      },
+      "triangles": {
+        "p50": 48550,
+        "max": 48550
+      },
+      "programs": 25,
+      "geometries": 417,
+      "textures": 29,
+      "textureObjectsInScene": 41,
+      "textureMB": 16.9,
+      "heapMB": {
+        "first": 1201.6,
+        "last": 1207.1,
+        "max": 1209.6
+      },
+      "heapDropsOver512KB": 10,
+      "longTasks": {
+        "n": 0,
+        "maxMs": 0
+      }
+    },
+    "foyer (idle)": {
+      "frames": 479,
+      "seconds": 8,
+      "fps": 59.9,
+      "frameMs": {
+        "p50": 16.7,
+        "p95": 18,
+        "p99": 21.1,
+        "max": 28.2
+      },
+      "cpuMs": {
+        "HandInputSystem": {
+          "n": 479,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.3
+        },
+        "PointerInputSystem": {
+          "n": 479,
+          "p50": 0.1,
+          "p95": 0.2,
+          "max": 0.2
+        },
+        "LifecycleSystem": {
+          "n": 479,
+          "p50": 0,
+          "p95": 0,
+          "max": 0.1
+        },
+        "GameDirectorSystem": {
+          "n": 479,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.2
+        },
+        "PresentationSystem": {
+          "n": 479,
+          "p50": 0.4,
+          "p95": 0.7,
+          "max": 1.2
+        },
+        "world.update (all systems)": {
+          "n": 479,
+          "p50": 1.7,
+          "p95": 2.4,
+          "max": 3.7
+        },
+        "renderer.render (CPU submit)": {
+          "n": 479,
+          "p50": 8.7,
+          "p95": 10.3,
+          "max": 13.2
+        },
+        "domain tick": {
+          "n": 160,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.2
+        }
+      },
+      "drawCalls": {
+        "p50": 804,
+        "max": 804
+      },
+      "triangles": {
+        "p50": 48502,
+        "max": 48502
+      },
+      "programs": 25,
+      "geometries": 417,
+      "textures": 29,
+      "textureObjectsInScene": 41,
+      "textureMB": 16.9,
+      "heapMB": {
+        "first": 1187.2,
+        "last": 1198,
+        "max": 1205.4
+      },
+      "heapDropsOver512KB": 10,
+      "longTasks": {
+        "n": 0,
+        "maxMs": 0
+      }
+    },
+    "seam manipulation": {
+      "frames": 572,
+      "seconds": 10,
+      "fps": 57.2,
+      "frameMs": {
+        "p50": 16.7,
+        "p95": 17.9,
+        "p99": 55.8,
+        "max": 136.5
+      },
+      "cpuMs": {
+        "HandInputSystem": {
+          "n": 572,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.2
+        },
+        "PointerInputSystem": {
+          "n": 572,
+          "p50": 0.1,
+          "p95": 0.2,
+          "max": 5.2
+        },
+        "LifecycleSystem": {
+          "n": 572,
+          "p50": 0,
+          "p95": 0,
+          "max": 0.1
+        },
+        "domain tick": {
+          "n": 200,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.2
+        },
+        "GameDirectorSystem": {
+          "n": 572,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.3
+        },
+        "PresentationSystem": {
+          "n": 572,
+          "p50": 0.5,
+          "p95": 0.8,
+          "max": 7
+        },
+        "world.update (all systems)": {
+          "n": 572,
+          "p50": 1.5,
+          "p95": 2.3,
+          "max": 13.4
+        },
+        "renderer.render (CPU submit)": {
+          "n": 572,
+          "p50": 7.1,
+          "p95": 8.7,
+          "max": 122.4
+        }
+      },
+      "drawCalls": {
+        "p50": 554,
+        "max": 562
+      },
+      "triangles": {
+        "p50": 43482,
+        "max": 44282
+      },
+      "programs": 25,
+      "geometries": 421,
+      "textures": 29,
+      "textureObjectsInScene": 41,
+      "textureMB": 16.9,
+      "heapMB": {
+        "first": 1213,
+        "last": 822.7,
+        "max": 1216.5
+      },
+      "heapDropsOver512KB": 11,
+      "longTasks": {
+        "n": 0,
+        "maxMs": 0
+      }
+    },
+    "room transition (hops)": {
+      "frames": 662,
+      "seconds": 12,
+      "fps": 55.1,
+      "frameMs": {
+        "p50": 17.2,
+        "p95": 22.9,
+        "p99": 25.4,
+        "max": 29.4
+      },
+      "cpuMs": {
+        "HandInputSystem": {
+          "n": 662,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.2
+        },
+        "PointerInputSystem": {
+          "n": 662,
+          "p50": 0.1,
+          "p95": 0.2,
+          "max": 0.4
+        },
+        "LifecycleSystem": {
+          "n": 662,
+          "p50": 0,
+          "p95": 0,
+          "max": 0.1
+        },
+        "GameDirectorSystem": {
+          "n": 662,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.2
+        },
+        "PresentationSystem": {
+          "n": 662,
+          "p50": 0.4,
+          "p95": 0.8,
+          "max": 1.4
+        },
+        "world.update (all systems)": {
+          "n": 662,
+          "p50": 1.4,
+          "p95": 2.1,
+          "max": 3.9
+        },
+        "renderer.render (CPU submit)": {
+          "n": 662,
+          "p50": 9,
+          "p95": 14.6,
+          "max": 18.2
+        },
+        "domain tick": {
+          "n": 240,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.2
+        }
+      },
+      "drawCalls": {
+        "p50": 1064,
+        "max": 1066
+      },
+      "triangles": {
+        "p50": 53346,
+        "max": 54050
+      },
+      "programs": 25,
+      "geometries": 655,
+      "textures": 39,
+      "textureObjectsInScene": 41,
+      "textureMB": 16.9,
+      "heapMB": {
+        "first": 838.4,
+        "last": 830.2,
+        "max": 849.3
+      },
+      "heapDropsOver512KB": 17,
+      "longTasks": {
+        "n": 0,
+        "maxMs": 0
+      }
+    },
+    "surveyor listening": {
+      "frames": 418,
+      "seconds": 7,
+      "fps": 59.7,
+      "frameMs": {
+        "p50": 16.6,
+        "p95": 17.8,
+        "p99": 22.4,
+        "max": 43.5
+      },
+      "cpuMs": {
+        "HandInputSystem": {
+          "n": 418,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.2
+        },
+        "PointerInputSystem": {
+          "n": 418,
+          "p50": 0.1,
+          "p95": 0.2,
+          "max": 0.3
+        },
+        "LifecycleSystem": {
+          "n": 418,
+          "p50": 0,
+          "p95": 0,
+          "max": 0.1
+        },
+        "GameDirectorSystem": {
+          "n": 418,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.3
+        },
+        "PresentationSystem": {
+          "n": 418,
+          "p50": 0.5,
+          "p95": 0.7,
+          "max": 1.4
+        },
+        "world.update (all systems)": {
+          "n": 418,
+          "p50": 1.6,
+          "p95": 2.2,
+          "max": 7.2
+        },
+        "renderer.render (CPU submit)": {
+          "n": 418,
+          "p50": 9.6,
+          "p95": 11.2,
+          "max": 37
+        },
+        "domain tick": {
+          "n": 140,
+          "p50": 0.1,
+          "p95": 0.2,
+          "max": 0.2
+        }
+      },
+      "drawCalls": {
+        "p50": 712,
+        "max": 718
+      },
+      "triangles": {
+        "p50": 39476,
+        "max": 39548
+      },
+      "programs": 25,
+      "geometries": 660,
+      "textures": 38,
+      "textureObjectsInScene": 41,
+      "textureMB": 16.9,
+      "heapMB": {
+        "first": 829.7,
+        "last": 845.6,
+        "max": 849.9
+      },
+      "heapDropsOver512KB": 12,
+      "longTasks": {
+        "n": 0,
+        "maxMs": 0
+      }
+    },
+    "surveyor approaching": {
+      "frames": 819,
+      "seconds": 14,
+      "fps": 58.4,
+      "frameMs": {
+        "p50": 16.8,
+        "p95": 20.6,
+        "p99": 23.5,
+        "max": 41
+      },
+      "cpuMs": {
+        "HandInputSystem": {
+          "n": 819,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.2
+        },
+        "PointerInputSystem": {
+          "n": 819,
+          "p50": 0.1,
+          "p95": 0.2,
+          "max": 0.3
+        },
+        "LifecycleSystem": {
+          "n": 819,
+          "p50": 0,
+          "p95": 0,
+          "max": 0.1
+        },
+        "GameDirectorSystem": {
+          "n": 819,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.4
+        },
+        "PresentationSystem": {
+          "n": 819,
+          "p50": 0.5,
+          "p95": 0.8,
+          "max": 2
+        },
+        "world.update (all systems)": {
+          "n": 819,
+          "p50": 1.6,
+          "p95": 2.3,
+          "max": 5.6
+        },
+        "renderer.render (CPU submit)": {
+          "n": 819,
+          "p50": 10.2,
+          "p95": 12.6,
+          "max": 36.3
+        },
+        "domain tick": {
+          "n": 281,
+          "p50": 0.1,
+          "p95": 0.2,
+          "max": 0.4
+        }
+      },
+      "drawCalls": {
+        "p50": 718,
+        "max": 846
+      },
+      "triangles": {
+        "p50": 39548,
+        "max": 44428
+      },
+      "programs": 25,
+      "geometries": 724,
+      "textures": 39,
+      "textureObjectsInScene": 41,
+      "textureMB": 16.9,
+      "heapMB": {
+        "first": 853.7,
+        "last": 849.2,
+        "max": 861.5
+      },
+      "heapDropsOver512KB": 24,
+      "longTasks": {
+        "n": 0,
+        "maxMs": 0
+      }
+    },
+    "surveyor encounter (swing)": {
+      "frames": 2283,
+      "seconds": 40,
+      "fps": 57,
+      "frameMs": {
+        "p50": 16.9,
+        "p95": 21.2,
+        "p99": 23.7,
+        "max": 221.2
+      },
+      "cpuMs": {
+        "HandInputSystem": {
+          "n": 2283,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.3
+        },
+        "PointerInputSystem": {
+          "n": 2283,
+          "p50": 0.1,
+          "p95": 0.2,
+          "max": 5.2
+        },
+        "LifecycleSystem": {
+          "n": 2283,
+          "p50": 0,
+          "p95": 0,
+          "max": 0.1
+        },
+        "domain tick": {
+          "n": 801,
+          "p50": 0,
+          "p95": 0.2,
+          "max": 0.4
+        },
+        "GameDirectorSystem": {
+          "n": 2283,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.4
+        },
+        "PresentationSystem": {
+          "n": 2283,
+          "p50": 0.4,
+          "p95": 0.7,
+          "max": 14.1
+        },
+        "world.update (all systems)": {
+          "n": 2283,
+          "p50": 1.5,
+          "p95": 2.2,
+          "max": 15.1
+        },
+        "renderer.render (CPU submit)": {
+          "n": 2283,
+          "p50": 10.4,
+          "p95": 12.9,
+          "max": 212.7
+        }
+      },
+      "drawCalls": {
+        "p50": 842,
+        "max": 850
+      },
+      "triangles": {
+        "p50": 44380,
+        "max": 44500
+      },
+      "programs": 25,
+      "geometries": 728,
+      "textures": 39,
+      "textureObjectsInScene": 41,
+      "textureMB": 16.9,
+      "heapMB": {
+        "first": 850.4,
+        "last": 821.5,
+        "max": 869.6
+      },
+      "heapDropsOver512KB": 70,
+      "longTasks": {
+        "n": 0,
+        "maxMs": 0
+      }
+    },
+    "multiple effects (finale)": {
+      "frames": 961,
+      "seconds": 16,
+      "fps": 60,
+      "frameMs": {
+        "p50": 16.7,
+        "p95": 17.6,
+        "p99": 19.6,
+        "max": 49.8
+      },
+      "cpuMs": {
+        "HandInputSystem": {
+          "n": 961,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.7
+        },
+        "PointerInputSystem": {
+          "n": 961,
+          "p50": 0.1,
+          "p95": 0.2,
+          "max": 2.6
+        },
+        "LifecycleSystem": {
+          "n": 961,
+          "p50": 0,
+          "p95": 0,
+          "max": 0.1
+        },
+        "GameDirectorSystem": {
+          "n": 961,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.4
+        },
+        "PresentationSystem": {
+          "n": 961,
+          "p50": 0.6,
+          "p95": 0.9,
+          "max": 4
+        },
+        "world.update (all systems)": {
+          "n": 961,
+          "p50": 1.6,
+          "p95": 2.3,
+          "max": 6
+        },
+        "renderer.render (CPU submit)": {
+          "n": 961,
+          "p50": 6.6,
+          "p95": 8.2,
+          "max": 40.9
+        },
+        "domain tick": {
+          "n": 320,
+          "p50": 0,
+          "p95": 0.2,
+          "max": 0.4
+        }
+      },
+      "drawCalls": {
+        "p50": 420,
+        "max": 428
+      },
+      "triangles": {
+        "p50": 36252,
+        "max": 36956
+      },
+      "programs": 25,
+      "geometries": 736,
+      "textures": 39,
+      "textureObjectsInScene": 41,
+      "textureMB": 16.9,
+      "heapMB": {
+        "first": 823.9,
+        "last": 828.3,
+        "max": 828.3
+      },
+      "heapDropsOver512KB": 27,
+      "longTasks": {
+        "n": 0,
+        "maxMs": 0
+      }
+    },
+    "final sequence (ending)": {
+      "frames": 1802,
+      "seconds": 30,
+      "fps": 60.1,
+      "frameMs": {
+        "p50": 16.7,
+        "p95": 17.5,
+        "p99": 18.2,
+        "max": 23.4
+      },
+      "cpuMs": {
+        "HandInputSystem": {
+          "n": 1802,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.2
+        },
+        "PointerInputSystem": {
+          "n": 1802,
+          "p50": 0.1,
+          "p95": 0.2,
+          "max": 0.7
+        },
+        "LifecycleSystem": {
+          "n": 1802,
+          "p50": 0,
+          "p95": 0,
+          "max": 0.1
+        },
+        "domain tick": {
+          "n": 600,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.3
+        },
+        "GameDirectorSystem": {
+          "n": 1802,
+          "p50": 0,
+          "p95": 0.1,
+          "max": 0.3
+        },
+        "PresentationSystem": {
+          "n": 1802,
+          "p50": 0.5,
+          "p95": 0.9,
+          "max": 13.1
+        },
+        "world.update (all systems)": {
+          "n": 1802,
+          "p50": 1.5,
+          "p95": 2.2,
+          "max": 13.9
+        },
+        "renderer.render (CPU submit)": {
+          "n": 1802,
+          "p50": 5.3,
+          "p95": 6.6,
+          "max": 17.7
+        }
+      },
+      "drawCalls": {
+        "p50": 248,
+        "max": 254
+      },
+      "triangles": {
+        "p50": 29948,
+        "max": 30020
+      },
+      "programs": 25,
+      "geometries": 736,
+      "textures": 40,
+      "textureObjectsInScene": 41,
+      "textureMB": 16.9,
+      "heapMB": {
+        "first": 834.7,
+        "last": 836.7,
+        "max": 837.2
+      },
+      "heapDropsOver512KB": 16,
+      "longTasks": {
+        "n": 0,
+        "maxMs": 0
+      }
+    },
+    "interactionLatency": {
+      "samples": 12,
+      "framesMedian": 1,
+      "framesMax": 1,
+      "msMedian": 15.9,
+      "msMax": 17.4,
+      "note": "window.requestAnimationFrame ticks while the XR session is active; ms includes up to one rAF interval of measurement granularity"
+    }
+  }
+}

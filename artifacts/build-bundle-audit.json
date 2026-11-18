@@ -1,0 +1,179 @@
+{
+  "capturedAt": "2026-11-17T11:03:30.793Z",
+  "productionBuild": {
+    "passed": true,
+    "warning": true,
+    "chunks": [
+      {
+        "file": "index-B-JrNSpF.js",
+        "kb": 2496.03,
+        "gzipKb": 690.64
+      },
+      {
+        "file": "msdf-worker-DPllBcqv.js",
+        "kb": 456.04,
+        "gzipKb": 180.29
+      },
+      {
+        "file": "worker-Droi3wyN.js",
+        "kb": 201.92,
+        "gzipKb": 64.74
+      },
+      {
+        "file": "world-initializer-CZd-VLvH.js",
+        "kb": 54.46,
+        "gzipKb": 18.35
+      },
+      {
+        "file": "worker-_Lh8Vt-i.js",
+        "kb": 41.91,
+        "gzipKb": 12.29
+      },
+      {
+        "file": "index-bSddZSm7.js",
+        "kb": 21.77,
+        "gzipKb": 6.57
+      },
+      {
+        "file": "physics-worker-CBSRM86l.js",
+        "kb": 7.2,
+        "gzipKb": 2.84
+      },
+      {
+        "file": "dist-D9JX0dUp.js",
+        "kb": 6.86,
+        "gzipKb": 2.9
+      },
+      {
+        "file": "physics-runtime-D7rY4rSa.js",
+        "kb": 6.39,
+        "gzipKb": 2.55
+      },
+      {
+        "file": "_virtual_iwsdk-disabled-bundled-fonts-BAJlaAO4.js",
+        "kb": 0.85,
+        "gzipKb": 0.52
+      }
+    ],
+    "mainChunk": {
+      "file": "index-B-JrNSpF.js",
+      "kb": 2496.03,
+      "gzipKb": 690.64
+    }
+  },
+  "mainMap": {
+    "file": "index-B-JrNSpF.js.map",
+    "sourceCount": 418,
+    "totalMappedSourceChars": 6517355,
+    "largestPackages": [
+      {
+        "packageName": "three",
+        "sourceChars": 2986252,
+        "percentOfMappedSource": 45.8
+      },
+      {
+        "packageName": "@iwsdk/xr-input",
+        "sourceChars": 880598,
+        "percentOfMappedSource": 13.5
+      },
+      {
+        "packageName": "@iwsdk/core",
+        "sourceChars": 751999,
+        "percentOfMappedSource": 11.5
+      },
+      {
+        "packageName": "zod",
+        "sourceChars": 369757,
+        "percentOfMappedSource": 5.7
+      },
+      {
+        "packageName": "@pmndrs/uikit",
+        "sourceChars": 292029,
+        "percentOfMappedSource": 4.5
+      },
+      {
+        "packageName": "three-mesh-bvh",
+        "sourceChars": 195743,
+        "percentOfMappedSource": 3
+      },
+      {
+        "packageName": "@pmndrs/uikit-horizon",
+        "sourceChars": 195622,
+        "percentOfMappedSource": 3
+      },
+      {
+        "packageName": "app / local runtime",
+        "sourceChars": 177599,
+        "percentOfMappedSource": 2.7
+      },
+      {
+        "packageName": "@iwsdk/scene-composition",
+        "sourceChars": 164586,
+        "percentOfMappedSource": 2.5
+      },
+      {
+        "packageName": "yoga-layout",
+        "sourceChars": 134293,
+        "percentOfMappedSource": 2.1
+      },
+      {
+        "packageName": "entities",
+        "sourceChars": 70037,
+        "percentOfMappedSource": 1.1
+      },
+      {
+        "packageName": "@pmndrs/pointer-events",
+        "sourceChars": 68565,
+        "percentOfMappedSource": 1.1
+      },
+      {
+        "packageName": "@drawcall/uikitml",
+        "sourceChars": 67107,
+        "percentOfMappedSource": 1
+      },
+      {
+        "packageName": "@pmndrs/handle",
+        "sourceChars": 59615,
+        "percentOfMappedSource": 0.9
+      },
+      {
+        "packageName": "@iwsdk/locomotor",
+        "sourceChars": 50736,
+        "percentOfMappedSource": 0.8
+      },
+      {
+        "packageName": "elics",
+        "sourceChars": 36564,
+        "percentOfMappedSource": 0.6
+      }
+    ]
+  },
+  "assessment": "The main bundle is dominated by engine/runtime dependencies (Three.js and IWSDK). The local app source is a small share of mapped source, while the title and first-room experience share this runtime. Splitting the existing startup path would add load boundaries for a modest app-only reduction; no manual split was introduced.",
+  "finalProductionBuild": {
+    "passed": true,
+    "mainChunk": {
+      "file": "index-BKC0wJbA.js",
+      "kb": 2495.98,
+      "gzipKb": 690.6
+    },
+    "largestOtherChunks": [
+      {
+        "file": "msdf-worker-BUaSHgMS.js",
+        "kb": 455.99,
+        "gzipKb": 180.25
+      },
+      {
+        "file": "worker-D8yl70Ie.js",
+        "kb": 201.88,
+        "gzipKb": 64.69
+      },
+      {
+        "file": "world-initializer-0a4wUbKm.js",
+        "kb": 54.4,
+        "gzipKb": 18.31
+      }
+    ],
+    "viteChunkSizeWarning": true,
+    "zodPureAnnotationWarnings": 2
+  }
+}

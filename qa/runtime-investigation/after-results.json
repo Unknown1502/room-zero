@@ -1,0 +1,101 @@
+{
+  "capturedAt": "2026-11-18T14:51:40.827Z",
+  "phase": "after",
+  "results": [
+    {
+      "id": "A0",
+      "name": "fresh page: no injection state present",
+      "ok": true,
+      "detail": "{\"origTick\":\"undefined\",\"origReq\":\"undefined\",\"ownTick\":false,\"rz\":\"object\"}"
+    },
+    {
+      "id": "A1",
+      "name": "clean session from the title to the stair head (title, begin, first room, letter, first seam, room transitions) with hands only",
+      "ok": true,
+      "detail": "76.6 s; {\"game\":\"PuzzleActive\",\"vantage\":\"v-stair-head\",\"postmarks\":[\"ENTRANCE\",\"STAIR\"],\"failed\":false,\"ownTick\":false}"
+    },
+    {
+      "id": "A2",
+      "name": "clean session logged no console errors and nothing was injected",
+      "ok": true,
+      "detail": "errors: []"
+    },
+    {
+      "id": "B1",
+      "name": "refusal is handled: message shown, Enter VR usable again, no session left, game not failed",
+      "ok": true,
+      "detail": "{\"status\":\"The headset did not start VR. Try again.\",\"enterDisabled\":false,\"session\":false,\"failed\":false}"
+    },
+    {
+      "id": "B2",
+      "name": "after the injection is removed a session starts",
+      "ok": true,
+      "detail": "restored: true; started: true"
+    },
+    {
+      "id": "C0",
+      "name": "precondition: the grinding loop is running when the failure is injected",
+      "ok": true,
+      "detail": "grind 0.04884531535064965"
+    },
+    {
+      "id": "C1",
+      "name": "the failure is logged exactly once and ticking stops",
+      "ok": true,
+      "detail": "new \"Room Zero stopped\" messages: 1; {\"card\":true,\"ticks\":249,\"before\":249}"
+    },
+    {
+      "id": "C2",
+      "name": "the failure policy releases the loops that were running (only the ambient tone may remain)",
+      "ok": true,
+      "detail": "loops still audible under the error card: {\"tone\":0.35}"
+    },
+    {
+      "id": "C3",
+      "name": "recovery: failure cleared, card hidden, hook removed, the chapter is back at its opening, ticking again",
+      "ok": true,
+      "detail": "{\"failed\":false,\"card\":false,\"ownTick\":false,\"game\":\"Exploration\",\"cp\":\"cp-arrival\",\"postmarks\":[\"ENTRANCE\"],\"solved\":[],\"seams\":\"0:rest,0:rest,0:rest,0:rest,1:rest,0:rest\",\"ticks\":88,\"tone\":0.35}"
+    },
+    {
+      "id": "C4",
+      "name": "the ambient tone is playing again after recovery",
+      "ok": true,
+      "detail": "tone 0.35"
+    },
+    {
+      "id": "C5",
+      "name": "a second injection logs once and leaves nothing behind",
+      "ok": true,
+      "detail": "messages 1; {\"failed\":false,\"ownTick\":false,\"leftovers\":[\"undefined\",\"undefined\"]}"
+    },
+    {
+      "id": "C6",
+      "name": "no console errors other than the ones injected on purpose",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "id": "D1",
+      "name": "no injection strings, test hooks or emulator globals in the production bundle",
+      "ok": true,
+      "detail": "10 JS files scanned"
+    },
+    {
+      "id": "D2",
+      "name": "production page ignores failure and debug flags in the URL and storage; no test hooks; loads without errors",
+      "ok": true,
+      "detail": "{\"rz\":\"undefined\",\"iwer\":\"undefined\",\"status\":\"This needs a VR headset browser. Open this address in the Meta Quest Browser.\",\"errors\":[]}"
+    }
+  ],
+  "screenshots": {
+    "clean": [
+      "qa/runtime-investigation/after/clean-title.png",
+      "qa/runtime-investigation/after/clean-arrival.png",
+      "qa/runtime-investigation/after/clean-foyer-door.png",
+      "qa/runtime-investigation/after/clean-stair-joined.png",
+      "qa/runtime-investigation/after/clean-stair-head.png"
+    ],
+    "refused": "qa/runtime-investigation/after/rt23-refused.png",
+    "errorCard": "qa/runtime-investigation/after/rt24-error-card.png"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "capturedAt": "2026-11-18T15:30:24.048Z",
+  "environment": "IWER Quest 3 emulator, managed Chromium (Playwright), desktop",
+  "phase": "before",
+  "startup": {
+    "status": "Seated. Hands only. About seven minutes. Headphones recommended.",
+    "enter": true
+  },
+  "consoleErrors": [],
+  "failedResources": [],
+  "shots": [
+    {
+      "id": "10-vantage-01-v-foyer-start",
+      "title": "Seat v-foyer-start (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-foyer-start",
+        "face forward"
+      ],
+      "file": "qa/graphics-pass/before/10-vantage-01-v-foyer-start.png"
+    },
+    {
+      "id": "10-vantage-02-v-foyer-door",
+      "title": "Seat v-foyer-door (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-foyer-door",
+        "face forward"
+      ],
+      "file": "qa/graphics-pass/before/10-vantage-02-v-foyer-door.png"
+    },
+    {
+      "id": "10-vantage-03-v-stair-head",
+      "title": "Seat v-stair-head (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-stair-head",
+        "face forward"
+      ],
+      "file": "qa/graphics-pass/before/10-vantage-03-v-stair-head.png"
+    },
+    {
+      "id": "10-vantage-04-v-landing-east",
+      "title": "Seat v-landing-east (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-landing-east",
+        "face forward"
+      ],
+      "file": "qa/graphics-pass/before/10-vantage-04-v-landing-east.png"
+    },
+    {
+      "id": "10-vantage-06-v-cwest-end",
+      "title": "Seat v-cwest-end (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-cwest-end",
+        "face forward"
+      ],
+      "file": "qa/graphics-pass/before/10-vantage-06-v-cwest-end.png"
+    },
+    {
+      "id": "10-vantage-08-v-ceast-west",
+      "title": "Seat v-ceast-west (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-ceast-west",
+        "face forward"
+      ],
+      "file": "qa/graphics-pass/before/10-vantage-08-v-ceast-west.png"
+    },
+    {
+      "id": "10-vantage-09-v-ceast-end",
+      "title": "Seat v-ceast-end (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-ceast-end",
+        "face forward"
+      ],
+      "file": "qa/graphics-pass/before/10-vantage-09-v-ceast-end.png"
+    },
+    {
+      "id": "22-seam-hall-open",
+      "title": "Foyer door seat after seam-hall is seated (doorway joined, next lamp lit)",
+      "steps": [
+        "cp-stairhead (seam-hall seated)",
+        "v-foyer-door"
+      ],
+      "file": "qa/graphics-pass/before/22-seam-hall-open.png"
+    }
+  ]
+}

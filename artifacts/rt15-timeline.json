@@ -1,0 +1,326 @@
+{
+  "timeline": [
+    {
+      "t": 14.6,
+      "label": "Title: the envelope and the begin seal"
+    },
+    {
+      "t": 30.5,
+      "label": "Sequence 1, The Arrival: fade into the foyer"
+    },
+    {
+      "t": 57.5,
+      "label": "hop to the foyer door"
+    },
+    {
+      "t": 71.6,
+      "label": "seam-hall slid and seated: the stair wing joins"
+    },
+    {
+      "t": 106.5,
+      "label": "Sequence 2, The Missing Staircase: top of the stair"
+    },
+    {
+      "t": 123.6,
+      "label": "seam-landing braced, pulled and seated"
+    },
+    {
+      "t": 159.1,
+      "label": "Sequence 3, The Wrong Door: the Turning Room in view"
+    },
+    {
+      "t": 175.6,
+      "label": "seam-rotunda: one quarter turn"
+    },
+    {
+      "t": 191.3,
+      "label": "hop into the Turning Room"
+    },
+    {
+      "t": 205.7,
+      "label": "Sequence 4, First Surveyor Encounter: the corridor; the Surveyor is armed"
+    },
+    {
+      "t": 214.9,
+      "label": "holding the bridge lever; the Surveyor wakes and counts"
+    },
+    {
+      "t": 217.5,
+      "label": "the Surveyor is in the East Corridor: swing the bridge"
+    },
+    {
+      "t": 223.1,
+      "label": "bridge seated against the Dead Letter Office; the Surveyor turns to the new joint"
+    },
+    {
+      "t": 294.3,
+      "label": "the Surveyor is inside the office: swing the bridge back"
+    },
+    {
+      "t": 302.9,
+      "label": "office sealed: the Surveyor has no route"
+    },
+    {
+      "t": 341.3,
+      "label": "across the bridge to the East Corridor"
+    },
+    {
+      "t": 361,
+      "label": "Sequence 5, Room Zero: the lift and the crane arm"
+    },
+    {
+      "t": 383.8,
+      "label": "seam-lift raised out of the way"
+    },
+    {
+      "t": 399.7,
+      "label": "seam-arm: Room Zero swung in"
+    },
+    {
+      "t": 419.4,
+      "label": "seam-lift lowered: the round doors meet; the house is closing"
+    },
+    {
+      "t": 440.2,
+      "label": "caught by the Surveyor (1 so far): sent back to the last postmark; trying the lift again"
+    },
+    {
+      "t": 465,
+      "label": "into Room Zero (6 presses, 1 without effect, caught 1 times)"
+    },
+    {
+      "t": 483.5,
+      "label": "letter in hand"
+    },
+    {
+      "t": 490.6,
+      "label": "letter delivered into pigeonhole 0"
+    },
+    {
+      "t": 498.2,
+      "label": "the card: You are the return address."
+    },
+    {
+      "t": 516.8,
+      "label": "ChapterComplete: title card"
+    }
+  ],
+  "failures": [
+    {
+      "t": 92.1,
+      "label": "hop to v-stair-head",
+      "note": "attempt 1 had no effect (__rz.session.vantage === 'v-stair-head' && __rz.fade < 0.05)",
+      "diag": {
+        "calls": [],
+        "hands": [
+          {
+            "tracked": true,
+            "pinch": false,
+            "hold": false
+          },
+          {
+            "tracked": true,
+            "pinch": false,
+            "hold": false
+          }
+        ],
+        "nearGrip": false,
+        "vantage": "v-foyer-door",
+        "catches": 0,
+        "reachable": [
+          "v-foyer-start",
+          "v-stair-head"
+        ],
+        "fade": 0,
+        "pending": false
+      }
+    },
+    {
+      "t": 106.5,
+      "label": "hop to v-stair-head",
+      "note": "needed 2 attempts"
+    },
+    {
+      "t": 144.5,
+      "label": "hop to v-landing-east",
+      "note": "attempt 1 had no effect (__rz.session.vantage === 'v-landing-east' && __rz.fade < 0.05)",
+      "diag": {
+        "calls": [],
+        "hands": [
+          {
+            "tracked": true,
+            "pinch": false,
+            "hold": false
+          },
+          {
+            "tracked": true,
+            "pinch": false,
+            "hold": false
+          }
+        ],
+        "nearGrip": false,
+        "vantage": "v-stair-head",
+        "catches": 0,
+        "reachable": [
+          "v-foyer-door",
+          "v-landing-east"
+        ],
+        "fade": 0,
+        "pending": false
+      }
+    },
+    {
+      "t": 159.1,
+      "label": "hop to v-landing-east",
+      "note": "needed 2 attempts"
+    },
+    {
+      "t": 238.8,
+      "label": "take the bridge lever again",
+      "note": "attempt 1 had no effect (__rz.session.seams['seam-bridge'].phase === 'held')",
+      "diag": {
+        "hands": [
+          {
+            "tracked": true,
+            "pinch": false,
+            "hold": null
+          },
+          {
+            "tracked": true,
+            "pinch": true,
+            "hold": null
+          }
+        ],
+        "seams": {
+          "seam-hall": "rest:1:1.00:-/-",
+          "seam-landing": "rest:2:1.00:-/-",
+          "seam-rotunda": "rest:1:0.25:-/-",
+          "seam-bridge": "rest:1:1.00:-/-",
+          "seam-lift": "rest:1:0.50:-/-",
+          "seam-arm": "rest:0:0.00:-/-"
+        },
+        "vantage": "v-cwest-end",
+        "sv": "Investigating",
+        "catches": 0,
+        "blocked": null
+      }
+    },
+    {
+      "t": 247.4,
+      "label": "take the bridge lever again",
+      "note": "needed 2 attempts"
+    },
+    {
+      "t": 458.9,
+      "label": "fast hop from v-lift",
+      "note": "press had no effect"
+    }
+  ],
+  "end": {
+    "game": "ChapterComplete",
+    "vantage": "v-zero",
+    "checkpoint": "cp-docked",
+    "postmarks": [
+      "ENTRANCE",
+      "STAIR",
+      "LANDING",
+      "WEST",
+      "EAST",
+      "LAST POST"
+    ],
+    "letter": "delivered",
+    "seams": {
+      "seam-hall": {
+        "c": 1,
+        "phase": "rest",
+        "p": 1,
+        "travel": null,
+        "anchor": null
+      },
+      "seam-landing": {
+        "c": 2,
+        "phase": "rest",
+        "p": 1,
+        "travel": null,
+        "anchor": null
+      },
+      "seam-rotunda": {
+        "c": 1,
+        "phase": "rest",
+        "p": 0.25,
+        "travel": null,
+        "anchor": null
+      },
+      "seam-bridge": {
+        "c": 0,
+        "phase": "rest",
+        "p": 0,
+        "travel": null,
+        "anchor": null
+      },
+      "seam-lift": {
+        "c": 1,
+        "phase": "rest",
+        "p": 0.5,
+        "travel": null,
+        "anchor": null
+      },
+      "seam-arm": {
+        "c": 1,
+        "phase": "rest",
+        "p": 1,
+        "travel": null,
+        "anchor": null
+      }
+    },
+    "edges": [
+      "bridge.free|c-west.end",
+      "bridge.pivot|c-east.west",
+      "c-east.end|lift.near",
+      "c-east.north|den.door",
+      "c-west.mouth|turn.f1",
+      "dead-letter.back|den.side",
+      "foyer.north|stair.foot",
+      "landing.east|turn.f3",
+      "landing.west|stair.head",
+      "lift.far|zero.door"
+    ],
+    "reachable": [
+      "v-lift"
+    ],
+    "solved": [
+      "obj-bridge",
+      "obj-first-seam",
+      "obj-room-zero",
+      "obj-staircase",
+      "obj-wrong-door"
+    ],
+    "flags": {
+      "surveyorSealed": false,
+      "houseClosing": true
+    },
+    "sv": {
+      "state": "Hunting",
+      "room": "lift",
+      "armed": true,
+      "crossing": false,
+      "fresh": 1,
+      "walk": 0
+    },
+    "catches": 1,
+    "settings": {
+      "snapTurn": 0,
+      "intensity": "standard",
+      "hands": "two",
+      "volume": 1
+    },
+    "hint": null,
+    "failed": false,
+    "tick": 9793,
+    "blocked": null,
+    "session": true,
+    "vis": "visible",
+    "fade": 0
+  },
+  "seconds": 521.3
+}

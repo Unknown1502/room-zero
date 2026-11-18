@@ -1,0 +1,569 @@
+{
+  "capturedAt": "2026-11-17T12:09:13.303Z",
+  "navigation": {
+    "runtime": "IWSDK 1.1.0 / IWER immersive session",
+    "game": "Exploration",
+    "playing": true,
+    "vantage": "v-foyer-start",
+    "reachable": [
+      "v-foyer-door"
+    ],
+    "playerWorld": [
+      0,
+      0,
+      4
+    ],
+    "headWorld": [
+      0,
+      1.600000023841858,
+      4
+    ],
+    "headLocal": [
+      0,
+      1.600000023841858,
+      0
+    ],
+    "headLocalOrientation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "beaconCount": 11,
+    "beacons": [
+      {
+        "targetId": "v-foyer-start",
+        "entityId": 30,
+        "parentEntityId": 29,
+        "moduleEntityId": 1,
+        "localTarget": [
+          0.25999999046325684,
+          1.5800000429153442,
+          0
+        ],
+        "localGroup": [
+          0.75,
+          0,
+          4
+        ],
+        "module": "foyer",
+        "targetWorld": [
+          1.0099999904632568,
+          1.5800000429153442,
+          4
+        ],
+        "worldMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.0099999904632568,
+          1.5800000429153442,
+          4,
+          1
+        ],
+        "expectedPlayerAnchor": [
+          0,
+          0,
+          4
+        ],
+        "distanceFromPlayerOrigin": 0
+      },
+      {
+        "targetId": "v-foyer-door",
+        "entityId": 32,
+        "parentEntityId": 31,
+        "moduleEntityId": 1,
+        "localTarget": [
+          0.25999999046325684,
+          1.5800000429153442,
+          0
+        ],
+        "localGroup": [
+          0.75,
+          0,
+          -6.199999809265137
+        ],
+        "module": "foyer",
+        "targetWorld": [
+          1.0099999904632568,
+          1.5800000429153442,
+          -6.199999809265137
+        ],
+        "worldMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.0099999904632568,
+          1.5800000429153442,
+          -6.199999809265137,
+          1
+        ],
+        "expectedPlayerAnchor": [
+          0,
+          0,
+          -6.2
+        ],
+        "distanceFromPlayerOrigin": 10.2
+      },
+      {
+        "targetId": "v-stair-head",
+        "entityId": 34,
+        "parentEntityId": 33,
+        "moduleEntityId": 12,
+        "localTarget": [
+          0.25999999046325684,
+          1.5800000429153442,
+          0
+        ],
+        "localGroup": [
+          2.5999999046325684,
+          6,
+          -5.25
+        ],
+        "module": "stair",
+        "targetWorld": [
+          -1.6400001049041748,
+          7.580000042915344,
+          -22.25
+        ],
+        "worldMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1.6400001049041748,
+          7.580000042915344,
+          -22.25,
+          1
+        ],
+        "expectedPlayerAnchor": [
+          -1.9,
+          6,
+          -23
+        ],
+        "distanceFromPlayerOrigin": 27.723816476091457
+      },
+      {
+        "targetId": "v-landing-east",
+        "entityId": 36,
+        "parentEntityId": 35,
+        "moduleEntityId": 13,
+        "localTarget": [
+          0.25999999046325684,
+          1.5800000429153442,
+          0
+        ],
+        "localGroup": [
+          2.799999952316284,
+          0,
+          0.75
+        ],
+        "module": "landing",
+        "targetWorld": [
+          12.059999942779541,
+          7.580000042915344,
+          -36.25
+        ],
+        "worldMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          12.059999942779541,
+          7.580000042915344,
+          -36.25,
+          1
+        ],
+        "expectedPlayerAnchor": [
+          11.8,
+          6,
+          -37
+        ],
+        "distanceFromPlayerOrigin": 43.084103797108284
+      },
+      {
+        "targetId": "v-turn-centre",
+        "entityId": 38,
+        "parentEntityId": 37,
+        "moduleEntityId": 14,
+        "localTarget": [
+          0.25999999046325684,
+          1.5800000429153442,
+          0
+        ],
+        "localGroup": [
+          4.5924253663221344e-17,
+          0,
+          0.75
+        ],
+        "module": "turn",
+        "targetWorld": [
+          18.759999990463257,
+          7.580000042915344,
+          -22.25
+        ],
+        "worldMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          18.759999990463257,
+          7.580000042915344,
+          -22.25,
+          1
+        ],
+        "expectedPlayerAnchor": [
+          18.5,
+          6,
+          -23
+        ],
+        "distanceFromPlayerOrigin": 33.27536626394968
+      },
+      {
+        "targetId": "v-cwest-end",
+        "entityId": 40,
+        "parentEntityId": 39,
+        "moduleEntityId": 15,
+        "localTarget": [
+          0.25999999046325684,
+          1.5800000429153442,
+          0
+        ],
+        "localGroup": [
+          9,
+          0,
+          0.75
+        ],
+        "module": "c-west",
+        "targetWorld": [
+          43.75999999046326,
+          7.580000042915344,
+          -22.25
+        ],
+        "worldMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          43.75999999046326,
+          7.580000042915344,
+          -22.25,
+          1
+        ],
+        "expectedPlayerAnchor": [
+          43.5,
+          6,
+          -23
+        ],
+        "distanceFromPlayerOrigin": 51.54852083231875
+      },
+      {
+        "targetId": "v-bridge-mid",
+        "entityId": 42,
+        "parentEntityId": 41,
+        "moduleEntityId": 17,
+        "localTarget": [
+          0.25999999046325684,
+          1.5800000429153442,
+          0
+        ],
+        "localGroup": [
+          4.5924253663221344e-17,
+          0,
+          0.75
+        ],
+        "module": "bridge",
+        "targetWorld": [
+          51.75999999046326,
+          7.580000042915344,
+          -22.25
+        ],
+        "worldMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          51.75999999046326,
+          7.580000042915344,
+          -22.25,
+          1
+        ],
+        "expectedPlayerAnchor": [
+          51.5,
+          6,
+          -23
+        ],
+        "distanceFromPlayerOrigin": 58.45724933658784
+      },
+      {
+        "targetId": "v-ceast-west",
+        "entityId": 44,
+        "parentEntityId": 43,
+        "moduleEntityId": 16,
+        "localTarget": [
+          0.25999999046325684,
+          1.5800000429153442,
+          0
+        ],
+        "localGroup": [
+          -9,
+          0,
+          0.75
+        ],
+        "module": "c-east",
+        "targetWorld": [
+          59.75999999046326,
+          7.580000042915344,
+          -22.25
+        ],
+        "worldMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          59.75999999046326,
+          7.580000042915344,
+          -22.25,
+          1
+        ],
+        "expectedPlayerAnchor": [
+          59.5,
+          6,
+          -23
+        ],
+        "distanceFromPlayerOrigin": 65.61440390645944
+      },
+      {
+        "targetId": "v-ceast-end",
+        "entityId": 46,
+        "parentEntityId": 45,
+        "moduleEntityId": 16,
+        "localTarget": [
+          0.25999999046325684,
+          1.5800000429153442,
+          0
+        ],
+        "localGroup": [
+          9,
+          0,
+          0.75
+        ],
+        "module": "c-east",
+        "targetWorld": [
+          77.75999999046326,
+          7.580000042915344,
+          -22.25
+        ],
+        "worldMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          77.75999999046326,
+          7.580000042915344,
+          -22.25,
+          1
+        ],
+        "expectedPlayerAnchor": [
+          77.5,
+          6,
+          -23
+        ],
+        "distanceFromPlayerOrigin": 82.2876053850153
+      },
+      {
+        "targetId": "v-lift",
+        "entityId": 48,
+        "parentEntityId": 47,
+        "moduleEntityId": 20,
+        "localTarget": [
+          0.25999999046325684,
+          1.5800000429153442,
+          0
+        ],
+        "localGroup": [
+          -0.6000000238418579,
+          0,
+          0.75
+        ],
+        "module": "lift",
+        "targetWorld": [
+          81.1599999666214,
+          7.580000042915344,
+          -22.25
+        ],
+        "worldMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          81.1599999666214,
+          7.580000042915344,
+          -22.25,
+          1
+        ],
+        "expectedPlayerAnchor": [
+          80.9,
+          6,
+          -23
+        ],
+        "distanceFromPlayerOrigin": 85.49742686186526
+      },
+      {
+        "targetId": "v-zero",
+        "entityId": 50,
+        "parentEntityId": 49,
+        "moduleEntityId": 21,
+        "localTarget": [
+          0.25999999046325684,
+          1.5800000429153442,
+          0
+        ],
+        "localGroup": [
+          -0.20000000298023224,
+          0,
+          0.949999988079071
+        ],
+        "module": "zero",
+        "targetWorld": [
+          94.00697532070033,
+          7.580000042915344,
+          -15.234535964679141
+        ],
+        "worldMatrix": [
+          -0.34202018553452973,
+          0,
+          -0.9396926584944936,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0.9396926584944936,
+          0,
+          -0.34202018553452973,
+          0,
+          94.00697532070033,
+          7.580000042915344,
+          -15.234535964679141,
+          1
+        ],
+        "expectedPlayerAnchor": [
+          93.3911310819894,
+          6,
+          -14.733700750158985
+        ],
+        "distanceFromPlayerOrigin": 95.44032118853035
+      }
+    ]
+  },
+  "m5-gate": {
+    "runtime": "IWSDK 1.1.0 / active IWER session",
+    "checks": [
+      "IWER provides both hand sources; three envelope settings respond to fingertip contact",
+      "two-second restart seal returns a mid-chapter run to the opening",
+      "30 and 45 degree snap turns preserve the tracked head position",
+      "reference route reaches Room Zero, solves all objectives, and renders the ending",
+      "error boundary stops ticks and the in-world retry returns to the opening"
+    ],
+    "errorRetryVisible": true,
+    "fullChapter": {
+      "state": "ChapterComplete",
+      "complete": true,
+      "objectiveCount": 5,
+      "postmarks": [
+        "ENTRANCE",
+        "STAIR",
+        "LANDING",
+        "WEST",
+        "EAST",
+        "LAST POST"
+      ],
+      "surveyorRoom": "lift"
+    },
+    "stateAfterRecovery": "ChapterIntro",
+    "checkpointAfterRecovery": "cp-arrival"
+  }
+}

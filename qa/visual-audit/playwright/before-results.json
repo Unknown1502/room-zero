@@ -1,0 +1,106 @@
+{
+  "capturedAt": "2026-11-18T12:02:28.724Z",
+  "base": "http://127.0.0.1:4173/",
+  "results": [
+    {
+      "name": "desktop-1440x900: page loads, status line says why VR is unavailable",
+      "ok": true,
+      "detail": "This needs a VR headset browser. Open this address in the Meta Quest Browser."
+    },
+    {
+      "name": "desktop-1440x900: no console errors or page errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop-1440x900: no failed or 4xx requests",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop-1440x900: no horizontal scroll",
+      "ok": true,
+      "detail": "1440 > 1440"
+    },
+    {
+      "name": "desktop-1440x900: title, subtitle, Enter VR and settings are inside the viewport",
+      "ok": true,
+      "detail": "{\"h1\":{\"x\":566,\"y\":560,\"w\":307,\"h\":46,\"right\":874,\"bottom\":606},\"enter\":{\"x\":596,\"y\":763,\"w\":119,\"h\":41,\"right\":715,\"bottom\":804},\"fieldset\":{\"x\":422,\"y\":818,\"w\":595,\"h\":37,\"right\":1018,\"bottom\":855}}"
+    },
+    {
+      "name": "desktop-1440x900: measurements",
+      "ok": true,
+      "detail": "{\"h1\":{\"x\":566,\"y\":560,\"w\":307,\"h\":46,\"right\":874,\"bottom\":606},\"h2\":{\"x\":619,\"y\":610,\"w\":203,\"h\":22,\"right\":821,\"bottom\":632},\"enter\":{\"x\":596,\"y\":763,\"w\":119,\"h\":41,\"right\":715,\"bottom\":804},\"fieldset\":{\"x\":422,\"y\":818,\"w\":595,\"h\":37,\"right\":1018,\"bottom\":855},\"status\":\"This needs a VR headset browser. Open this address in the Meta Quest Browser.\",\"scrollW\":1440,\"innerW\":1440,\"scrollH\":900,\"innerH\":900,\"h1Vis\":true,\"canvas\":true}"
+    },
+    {
+      "name": "laptop-1280x720: page loads, status line says why VR is unavailable",
+      "ok": true,
+      "detail": "This needs a VR headset browser. Open this address in the Meta Quest Browser."
+    },
+    {
+      "name": "laptop-1280x720: no console errors or page errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "laptop-1280x720: no failed or 4xx requests",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "laptop-1280x720: no horizontal scroll",
+      "ok": true,
+      "detail": "1280 > 1280"
+    },
+    {
+      "name": "laptop-1280x720: title, subtitle, Enter VR and settings are inside the viewport",
+      "ok": true,
+      "detail": "{\"h1\":{\"x\":486,\"y\":389,\"w\":307,\"h\":46,\"right\":794,\"bottom\":435},\"enter\":{\"x\":516,\"y\":592,\"w\":119,\"h\":41,\"right\":635,\"bottom\":633},\"fieldset\":{\"x\":342,\"y\":647,\"w\":595,\"h\":37,\"right\":938,\"bottom\":684}}"
+    },
+    {
+      "name": "laptop-1280x720: measurements",
+      "ok": true,
+      "detail": "{\"h1\":{\"x\":486,\"y\":389,\"w\":307,\"h\":46,\"right\":794,\"bottom\":435},\"h2\":{\"x\":539,\"y\":439,\"w\":203,\"h\":22,\"right\":741,\"bottom\":461},\"enter\":{\"x\":516,\"y\":592,\"w\":119,\"h\":41,\"right\":635,\"bottom\":633},\"fieldset\":{\"x\":342,\"y\":647,\"w\":595,\"h\":37,\"right\":938,\"bottom\":684},\"status\":\"This needs a VR headset browser. Open this address in the Meta Quest Browser.\",\"scrollW\":1280,\"innerW\":1280,\"scrollH\":720,\"innerH\":720,\"h1Vis\":true,\"canvas\":true}"
+    },
+    {
+      "name": "narrow-390x844: page loads, status line says why VR is unavailable",
+      "ok": true,
+      "detail": "This needs a VR headset browser. Open this address in the Meta Quest Browser."
+    },
+    {
+      "name": "narrow-390x844: no console errors or page errors",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "narrow-390x844: no failed or 4xx requests",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "narrow-390x844: no horizontal scroll",
+      "ok": true,
+      "detail": "390 > 390"
+    },
+    {
+      "name": "narrow-390x844: title, subtitle, Enter VR and settings are inside the viewport",
+      "ok": true,
+      "detail": "{\"h1\":{\"x\":111,\"y\":443,\"w\":169,\"h\":25,\"right\":279,\"bottom\":468},\"enter\":{\"x\":71,\"y\":676,\"w\":119,\"h\":41,\"right\":190,\"bottom\":717},\"fieldset\":{\"x\":16,\"y\":731,\"w\":358,\"h\":71,\"right\":374,\"bottom\":802}}"
+    },
+    {
+      "name": "narrow-390x844: measurements",
+      "ok": true,
+      "detail": "{\"h1\":{\"x\":111,\"y\":443,\"w\":169,\"h\":25,\"right\":279,\"bottom\":468},\"h2\":{\"x\":124,\"y\":472,\"w\":142,\"h\":16,\"right\":266,\"bottom\":488},\"enter\":{\"x\":71,\"y\":676,\"w\":119,\"h\":41,\"right\":190,\"bottom\":717},\"fieldset\":{\"x\":16,\"y\":731,\"w\":358,\"h\":71,\"right\":374,\"bottom\":802},\"status\":\"This needs a VR headset browser. Open this address in the Meta Quest Browser.\",\"scrollW\":390,\"innerW\":390,\"scrollH\":844,\"innerH\":844,\"h1Vis\":true,\"canvas\":true}"
+    },
+    {
+      "name": "page settings are stored where the game reads them",
+      "ok": true,
+      "detail": "{\"snapTurn\":30,\"intensity\":\"reduced\",\"hands\":\"one\",\"volume\":1}"
+    },
+    {
+      "name": "page settings survive a reload",
+      "ok": true,
+      "detail": "{\"hands\":\"one\",\"intensity\":\"reduced\",\"turn\":\"30\"}"
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "capturedAt": "2026-11-18T11:55:38.127Z",
+  "environment": "IWER Quest 3 emulator, managed Chromium (Playwright), desktop",
+  "phase": "before",
+  "startup": {
+    "status": "Seated. Hands only. About seven minutes. Headphones recommended.",
+    "enter": true
+  },
+  "consoleErrors": [
+    "Room Zero stopped: Error: QA injected failure\n    at g.session.tick (eval at evaluate (:370:30), <anonymous>:1:99)\n    at Game.step (https://localhost:8081/src/app/game.ts:223:20)\n    at GameDirectorS"
+  ],
+  "failedResources": [],
+  "shots": [
+    {
+      "id": "01-startup-page",
+      "title": "Page before entering VR (desktop view of the page and the 3D preview behind it)",
+      "steps": [
+        "load the page, wait until it is stable"
+      ],
+      "file": "qa/visual-audit/before/01-startup-page.png"
+    },
+    {
+      "id": "02-xr-title",
+      "title": "Title in VR: the envelope, the begin seal",
+      "steps": [
+        "enter the session",
+        "EndSession to the title",
+        "face forward"
+      ],
+      "file": "qa/visual-audit/before/02-xr-title.png"
+    },
+    {
+      "id": "03-xr-title-letter",
+      "title": "Title in VR looking down at the letter and seals",
+      "steps": [
+        "title",
+        "look down"
+      ],
+      "file": "qa/visual-audit/before/03-xr-title-letter.png"
+    },
+    {
+      "id": "04-foyer-start",
+      "title": "First playable view: the Entrance Hall seat",
+      "steps": [
+        "checkpoint cp-arrival",
+        "face forward"
+      ],
+      "file": "qa/visual-audit/before/04-foyer-start.png"
+    },
+    {
+      "id": "05-letter-settings-seals",
+      "title": "The letter at the chest with the four settings seals",
+      "steps": [
+        "cp-arrival",
+        "look down at the letter"
+      ],
+      "file": "qa/visual-audit/before/05-letter-settings-seals.png"
+    },
+    {
+      "id": "10-vantage-01-v-foyer-start",
+      "title": "Seat v-foyer-start (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-foyer-start",
+        "face forward"
+      ],
+      "file": "qa/visual-audit/before/10-vantage-01-v-foyer-start.png"
+    },
+    {
+      "id": "10-vantage-02-v-foyer-door",
+      "title": "Seat v-foyer-door (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-foyer-door",
+        "face forward"
+      ],
+      "file": "qa/visual-audit/before/10-vantage-02-v-foyer-door.png"
+    },
+    {
+      "id": "10-vantage-03-v-stair-head",
+      "title": "Seat v-stair-head (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-stair-head",
+        "face forward"
+      ],
+      "file": "qa/visual-audit/before/10-vantage-03-v-stair-head.png"
+    },
+    {
+      "id": "10-vantage-04-v-landing-east",
+      "title": "Seat v-landing-east (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-landing-east",
+        "face forward"
+      ],
+      "file": "qa/visual-audit/before/10-vantage-04-v-landing-east.png"
+    },
+    {
+      "id": "10-vantage-05-v-turn-centre",
+      "title": "Seat v-turn-centre (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-turn-centre",
+        "face forward"
+      ],
+      "file": "qa/visual-audit/before/10-vantage-05-v-turn-centre.png"
+    },
+    {
+      "id": "10-vantage-06-v-cwest-end",
+      "title": "Seat v-cwest-end (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-cwest-end",
+        "face forward"
+      ],
+      "file": "qa/visual-audit/before/10-vantage-06-v-cwest-end.png"
+    },
+    {
+      "id": "10-vantage-07-v-bridge-mid",
+      "title": "Seat v-bridge-mid (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-bridge-mid",
+        "face forward"
+      ],
+      "file": "qa/visual-audit/before/10-vantage-07-v-bridge-mid.png"
+    },
+    {
+      "id": "10-vantage-08-v-ceast-west",
+      "title": "Seat v-ceast-west (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-ceast-west",
+        "face forward"
+      ],
+      "file": "qa/visual-audit/before/10-vantage-08-v-ceast-west.png"
+    },
+    {
+      "id": "10-vantage-09-v-ceast-end",
+      "title": "Seat v-ceast-end (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-ceast-end",
+        "face forward"
+      ],
+      "file": "qa/visual-audit/before/10-vantage-09-v-ceast-end.png"
+    },
+    {
+      "id": "10-vantage-10-v-lift",
+      "title": "Seat v-lift (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-lift",
+        "face forward"
+      ],
+      "file": "qa/visual-audit/before/10-vantage-10-v-lift.png"
+    },
+    {
+      "id": "10-vantage-11-v-zero",
+      "title": "Seat v-zero (final house configuration)",
+      "steps": [
+        "checkpoint cp-docked (every seam in its final place)",
+        "rig placed at v-zero",
+        "face forward"
+      ],
+      "file": "qa/visual-audit/before/10-vantage-11-v-zero.png"
+    },
+    {
+      "id": "20-seam-hall-closed",
+      "title": "Foyer door seat, seam-hall not yet moved (doorway closed, grips at rest)",
+      "steps": [
+        "cp-arrival",
+        "v-foyer-door"
+      ],
+      "file": "qa/visual-audit/before/20-seam-hall-closed.png"
+    },
+    {
+      "id": "21-hand-on-grip",
+      "title": "A hand on the seam-hall grip (the affordance a player reaches for)",
+      "steps": [
+        "cp-arrival",
+        "v-foyer-door",
+        "right hand placed on the travel grip"
+      ],
+      "file": "qa/visual-audit/before/21-hand-on-grip.png"
+    },
+    {
+      "id": "22-seam-hall-open",
+      "title": "Foyer door seat after seam-hall is seated (doorway joined, next lamp lit)",
+      "steps": [
+        "cp-stairhead (seam-hall seated)",
+        "v-foyer-door"
+      ],
+      "file": "qa/visual-audit/before/22-seam-hall-open.png"
+    },
+    {
+      "id": "30-corridor-armed",
+      "title": "West corridor end, Surveyor armed but not yet seen",
+      "steps": [
+        "cp-corridor",
+        "v-cwest-end"
+      ],
+      "file": "qa/visual-audit/before/30-corridor-armed.png"
+    },
+    {
+      "id": "31-surveyor-east-corridor",
+      "title": "Surveyor in the East Corridor, seen from the west end",
+      "steps": [
+        "cp-corridor",
+        "v-cwest-end",
+        "bridge lever taken so the Surveyor wakes",
+        "wait until it stands in c-east"
+      ],
+      "file": "qa/visual-audit/before/31-surveyor-east-corridor.png"
+    },
+    {
+      "id": "32-surveyor-new-joint",
+      "title": "After the bridge swing: the Surveyor turning to the new joint",
+      "steps": [
+        "as 31",
+        "bridge swung to the office and released"
+      ],
+      "file": "qa/visual-audit/before/32-surveyor-new-joint.png"
+    },
+    {
+      "id": "40-final-station",
+      "title": "East corridor end: the lift and the crane arm (final puzzle station)",
+      "steps": [
+        "cp-east",
+        "v-ceast-end"
+      ],
+      "file": "qa/visual-audit/before/40-final-station.png"
+    },
+    {
+      "id": "41-room-zero",
+      "title": "Room Zero",
+      "steps": [
+        "cp-docked",
+        "v-zero"
+      ],
+      "file": "qa/visual-audit/before/41-room-zero.png"
+    },
+    {
+      "id": "42-ending-card",
+      "title": "The card: You are the return address",
+      "steps": [
+        "cp-docked",
+        "v-zero",
+        "letter placed in pigeonhole 0 through the game command"
+      ],
+      "file": "qa/visual-audit/before/42-ending-card.png"
+    },
+    {
+      "id": "43-chapter-complete",
+      "title": "Chapter complete: begin again or leave",
+      "steps": [
+        "as 42",
+        "wait for ChapterComplete"
+      ],
+      "file": "qa/visual-audit/before/43-chapter-complete.png"
+    },
+    {
+      "id": "50-snap-turn-markers",
+      "title": "Snap turn on: the turn markers",
+      "steps": [
+        "cp-landing",
+        "snap turn set to 30 degrees"
+      ],
+      "file": "qa/visual-audit/before/50-snap-turn-markers.png"
+    },
+    {
+      "id": "51-pause",
+      "title": "Paused (session hidden)",
+      "steps": [
+        "cp-landing",
+        "visibility hidden"
+      ],
+      "file": "qa/visual-audit/before/51-pause.png"
+    },
+    {
+      "id": "52-error-card",
+      "title": "Error card after an injected tick failure",
+      "steps": [
+        "cp-landing",
+        "session tick made to throw"
+      ],
+      "file": "qa/visual-audit/before/52-error-card.png"
+    },
+    {
+      "id": "53-no-hands-card",
+      "title": "No tracked hands for 5 s: the NO HANDS FOUND card",
+      "steps": [
+        "cp-landing",
+        "both hands disconnected"
+      ],
+      "file": "qa/visual-audit/before/53-no-hands-card.png"
+    }
+  ]
+}

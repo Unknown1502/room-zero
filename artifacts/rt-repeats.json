@@ -1,0 +1,26 @@
+{
+  "capturedAt": "2026-11-18T14:01:46.496Z",
+  "environment": "IWER desktop emulator",
+  "passes": 3,
+  "of": 3,
+  "tally": {
+    "RT-14": {
+      "pass": 2,
+      "fail": 1,
+      "results": [
+        "Fail",
+        "Pass",
+        "Pass"
+      ]
+    },
+    "RT-19": {
+      "pass": 3,
+      "fail": 0,
+      "results": [
+        "Pass",
+        "Pass",
+        "Pass"
+      ]
+    }
+  }
+}

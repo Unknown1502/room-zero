@@ -1,0 +1,15 @@
+{
+  "capturedAt": "2026-11-18T14:52:30.244Z",
+  "checks": [
+    {
+      "name": "bundle and page contain none of the injection strings, test hooks or emulator globals",
+      "ok": true,
+      "detail": "10 JS files and index.html scanned for 9 strings"
+    },
+    {
+      "name": "flags in the URL and storage do nothing; no hooks; no errors; no failed requests",
+      "ok": true,
+      "detail": "{\"rz\":\"undefined\",\"iwer\":\"undefined\",\"status\":\"This needs a VR headset browser. Open this address in the Meta Quest Browser.\",\"retryShown\":false,\"errors\":[],\"failed\":[]}"
+    }
+  ]
+}
