@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="data:," />
+    <title>Room Zero: The Unreturned Letter</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #0b0e13; color: #e9dfc8; font-family: Georgia, 'Times New Roman', serif; }
+      #scene-container { position: fixed; inset: 0; }
+      #page { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; padding: 0 16px 5vh; pointer-events: none; text-align: center; background: linear-gradient(to top, rgba(11, 14, 19, 0.92), rgba(11, 14, 19, 0) 55%); }
+      #page > * { pointer-events: auto; }
+      h1 { font-weight: normal; letter-spacing: 0.18em; margin: 0 0 4px; font-size: clamp(22px, 4vw, 40px); }
+      h2 { font-weight: normal; font-style: italic; margin: 0 0 14px; font-size: clamp(14px, 2vw, 20px); color: #c9c2b3; }
+      p { margin: 4px 0; max-width: 46em; color: #c9c2b3; }
+      button { font: inherit; padding: 10px 26px; margin: 12px 6px 6px; background: #7a6233; color: #0b0e13; border: 1px solid #d9a441; cursor: pointer; }
+      button:disabled { opacity: 0.4; cursor: default; }
+      button.quiet { background: transparent; color: #c9c2b3; border-color: #56657a; padding: 6px 14px; }
+      fieldset { border: 1px solid #3a2a1e; margin: 8px 0 0; padding: 6px 12px; display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
+      label { font-size: 14px; color: #c9c2b3; display: inline-flex; align-items: center; gap: 6px; }
+      select, input { font: inherit; font-size: 14px; background: #171b22; color: #e9dfc8; border: 1px solid #56657a; }
+      #notice { color: #d9a441; min-height: 1em; }
+    </style>
+    <script type="module" crossorigin src="./assets/index-DIKtXRBY.js"></script>
+  </head>
+  <body>
+    <div id="scene-container"></div>
+    <main id="page">
+      <h1>ROOM ZERO</h1>
+      <h2>The Unreturned Letter</h2>
+      <p>A tiny night courier, an enormous house, and a letter addressed to a room that no longer exists.</p>
+      <p id="status">Preparing the house.</p>
+      <p>Pinch a brass grip and slide it. Point at a lit lamp and pinch to go there.</p>
+      <p id="notice"></p>
+      <div>
+        <button id="enter" disabled>Enter VR</button>
+        <button id="retry" class="quiet" style="display: none" onclick="location.reload()">Try again</button>
+        <button id="restart" class="quiet">Begin again</button>
+      </div>
+      <fieldset>
+        <label>Intensity <select id="intensity"><option value="standard">Standard</option><option value="reduced">Reduced</option></select></label>
+        <label>Hands <select id="hands"><option value="two">Two</option><option value="one">One</option></select></label>
+        <label>Snap turn <select id="turn"><option value="0">Off</option><option value="30">30&deg;</option><option value="45">45&deg;</option></select></label>
+        <label>Volume <input id="volume" type="range" min="0" max="1" step="0.05" value="1" /></label>
+      </fieldset>
+    </main>
+    <script>
+      // If the game's own script cannot be fetched, nothing else can report it: say so and offer another attempt (REQ-REL-004).
+      (function () {
+        var m = document.querySelector('script[type="module"]');
+        if (!m) return;
+        m.addEventListener('error', function () {
+          var s = document.getElementById('status'), r = document.getElementById('retry');
+          if (s) s.textContent = 'The house could not be prepared: a file did not load. Check your connection and try again.';
+          if (r) r.style.display = 'inline-block';
+        });
+      })();
+    </script>
+  </body>
+</html>
