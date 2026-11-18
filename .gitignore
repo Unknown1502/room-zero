@@ -56,10 +56,5 @@ opencode.json
 # Generated run output: raw recordings, logs and scratch files stay local. Only the small result files and the final demo are kept.
 artifacts/*
 !artifacts/*.json
-!artifacts/recordings/
-artifacts/recordings/*
-!artifacts/recordings/ROOM-ZERO-final-demo.mp4
-!artifacts/recordings/ROOM-ZERO-final-demo-cuts.json
-!artifacts/recordings/ROOM-ZERO-final-demo-narration.txt
-!artifacts/recordings/demo-contact-sheet.png
-!artifacts/recordings/ROOM-ZERO-trailer.mp4
+# Recordings were removed from the repository on GitHub (2026-11-18); they stay on the author's machine only.
+artifacts/recordings/
